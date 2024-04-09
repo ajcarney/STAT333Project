@@ -68,7 +68,7 @@ state_gas$diesel  <- state_gas$diesel / navg
 
 
 counties <- read.csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv", stringsAsFactors = FALSE)
-msa <- read.csv("/home/aiden/Documents/School/STAT333/Project/data/msa.csv", stringsAsFactors = FALSE)
+msa <- read.csv("data/msa.csv", stringsAsFactors = FALSE)
 
 # function to add " County" to string if not already present
 appendCounty <- function(s) {
@@ -135,4 +135,4 @@ for(i in 1:nrow(counties)) {
 cat("found", nFound, "gas prices\n")
 cat("imputed", nImpute, "gas prices\n")
 
-write.csv(counties, "/home/aiden/Documents/School/STAT333/Project/data/gas_prices.csv", row.names = F, na="", quote=F)
+write.csv(counties, "data/gas_prices.csv", row.names = F, na="", quote=F)
