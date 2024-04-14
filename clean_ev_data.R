@@ -12,14 +12,15 @@ ev2 <- ev %>% mutate(county_name = paste(County, "County")) %>%
   mutate(max_date=max(Date)) %>%
   ungroup() %>%
   filter(Date==max_date) %>%
-  filter(Vehicle.Primary.Use=="Passenger") %>%
-  select(-max_date)  # remove max_date temporary column
+  filter(vehicle_primary_use=="Passenger") %>%
+  select(Date, fips, vehicle_primary_use, battery_electric_vehicles, plug_in_hybrid_electric_vehicles, ev_total,
+         non_ev_total, total_vehicles, percent_ev) 
   
 
 library(usmap)
 
 
-plot_usmap(data = ev2, values = "Percent.Electric.Vehicles", color = "grey", size = .25) +
-  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
+# plot_usmap(data = ev2, values = "percent_ev", color = "grey", size = .25) +
+#   scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
 
-# write.csv(ev2, "clean_data/Electric_Vehicle_Population_Size_By_County.csv")  
+write.csv(ev2, "clean_data/Electric_Vehicle_Population_Size_By_County.csv")

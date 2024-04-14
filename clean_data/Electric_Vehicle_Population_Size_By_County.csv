@@ -1,334 +1,334 @@
-"","Date","County","State","Vehicle.Primary.Use","Battery.Electric.Vehicles..BEVs.","Plug.In.Hybrid.Electric.Vehicles..PHEVs.","Electric.Vehicle..EV..Total","Non.Electric.Vehicle.Total","Total.Vehicles","Percent.Electric.Vehicles","county_name","fips","state_name","long_name","sumlev","region","division","state","county","crosswalk","region_name","division_name"
-"1",2023-08-31,"Randolph","NC","Passenger",1,0,1,3,4,25,"Randolph County",37151,"North Carolina","Randolph County NC",50,3,5,37,151,"3-5-37-151","South","South Atlantic"
-"2",2023-11-30,"Chelan","WA","Passenger",709,205,914,52540,53454,1.71,"Chelan County",53007,"Washington","Chelan County WA",50,4,9,53,7,"4-9-53-7","West","Pacific"
-"3",2023-11-30,"Collin","TX","Passenger",2,0,2,25,27,7.41,"Collin County",48085,"Texas","Collin County TX",50,3,7,48,85,"3-7-48-85","South","West South Central"
-"4",2020-08-31,"Guadalupe","TX","Passenger",1,0,1,63,64,1.56,"Guadalupe County",48187,"Texas","Guadalupe County TX",50,3,7,48,187,"3-7-48-187","South","West South Central"
-"5",2023-10-31,"Santa Barbara","CA","Passenger",1,0,1,59,60,1.67,"Santa Barbara County",6083,"California","Santa Barbara County CA",50,4,9,6,83,"4-9-6-83","West","Pacific"
-"6",2022-11-30,"Duval","FL","Passenger",0,1,1,266,267,0.37,"Duval County",12031,"Florida","Duval County FL",50,3,5,12,31,"3-5-12-31","South","South Atlantic"
-"7",2021-06-30,"Morris","NJ","Passenger",1,0,1,15,16,6.25,"Morris County",34027,"New Jersey","Morris County NJ",50,1,2,34,27,"1-2-34-27","Northeast","Middle Atlantic"
-"8",2022-02-28,"Vigo","IN","Passenger",1,0,1,5,6,16.67,"Vigo County",18167,"Indiana","Vigo County IN",50,2,3,18,167,"2-3-18-167","Midwest","East North Central"
-"9",2022-12-31,"Owyhee","ID","Passenger",1,0,1,3,4,25,"Owyhee County",16073,"Idaho","Owyhee County ID",50,4,8,16,73,"4-8-16-73","West","Mountain"
-"10",2023-11-30,"Klickitat","WA","Passenger",173,71,244,14712,14956,1.63,"Klickitat County",53039,"Washington","Klickitat County WA",50,4,9,53,39,"4-9-53-39","West","Pacific"
-"11",2023-06-30,"Geary","KS","Passenger",1,0,1,67,68,1.47,"Geary County",20061,"Kansas","Geary County KS",50,2,4,20,61,"2-4-20-61","Midwest","West North Central"
-"12",2023-11-30,"Arapahoe","CO","Passenger",1,1,2,60,62,3.23,"Arapahoe County",8005,"Colorado","Arapahoe County CO",50,4,8,8,5,"4-8-8-5","West","Mountain"
-"13",2023-11-30,"Prince George's","MD","Passenger",3,1,4,95,99,4.04,"Prince George's County",24033,"Maryland","Prince George's County MD",50,3,5,24,33,"3-5-24-33","South","South Atlantic"
-"14",2023-11-30,"Shelby","AL","Passenger",1,0,1,5,6,16.67,"Shelby County",1117,"Alabama","Shelby County AL",50,3,6,1,117,"3-6-1-117","South","East South Central"
-"15",2023-11-30,"Charleston","SC","Passenger",1,2,3,44,47,6.38,"Charleston County",45019,"South Carolina","Charleston County SC",50,3,5,45,19,"3-5-45-19","South","South Atlantic"
-"16",2022-07-31,"Howard","IN","Passenger",0,1,1,4,5,20,"Howard County",18067,"Indiana","Howard County IN",50,2,3,18,67,"2-3-18-67","Midwest","East North Central"
-"17",2022-09-30,"San Mateo","CA","Passenger",1,0,1,79,80,1.25,"San Mateo County",6081,"California","San Mateo County CA",50,4,9,6,81,"4-9-6-81","West","Pacific"
-"18",2022-06-30,"Boone","MO","Passenger",0,1,1,8,9,11.11,"Boone County",29019,"Missouri","Boone County MO",50,2,4,29,19,"2-4-29-19","Midwest","West North Central"
-"19",2023-08-31,"Dallas","TX","Passenger",1,0,1,69,70,1.43,"Dallas County",48113,"Texas","Dallas County TX",50,3,7,48,113,"3-7-48-113","South","West South Central"
-"20",2023-11-30,"Greene","OH","Passenger",1,0,1,24,25,4,"Greene County",39057,"Ohio","Greene County OH",50,2,3,39,57,"2-3-39-57","Midwest","East North Central"
-"21",2019-05-31,"Lumpkin","GA","Passenger",1,0,1,4,5,20,"Lumpkin County",13187,"Georgia","Lumpkin County GA",50,3,5,13,187,"3-5-13-187","South","South Atlantic"
-"22",2020-12-31,"Ada","ID","Passenger",0,1,1,257,258,0.39,"Ada County",16001,"Idaho","Ada County ID",50,4,8,16,1,"4-8-16-1","West","Mountain"
-"23",2023-11-30,"Jefferson","WA","Passenger",638,272,910,23605,24515,3.71,"Jefferson County",53031,"Washington","Jefferson County WA",50,4,9,53,31,"4-9-53-31","West","Pacific"
-"24",2022-11-30,"Clackamas","OR","Passenger",1,0,1,123,124,0.81,"Clackamas County",41005,"Oregon","Clackamas County OR",50,4,9,41,5,"4-9-41-5","West","Pacific"
-"25",2022-02-28,"Erie","NY","Passenger",1,0,1,31,32,3.12,"Erie County",36029,"New York","Erie County NY",50,1,2,36,29,"1-2-36-29","Northeast","Middle Atlantic"
-"26",2022-11-30,"Sevier","AR","Passenger",0,1,1,0,1,100,"Sevier County",5133,"Arkansas","Sevier County AR",50,3,7,5,133,"3-7-5-133","South","West South Central"
-"27",2023-11-30,"Williamson","TX","Passenger",0,1,1,36,37,2.7,"Williamson County",48491,"Texas","Williamson County TX",50,3,7,48,491,"3-7-48-491","South","West South Central"
-"28",2023-11-30,"Nueces","TX","Passenger",1,1,2,40,42,4.76,"Nueces County",48355,"Texas","Nueces County TX",50,3,7,48,355,"3-7-48-355","South","West South Central"
-"29",2023-11-30,"Okanogan","WA","Passenger",150,74,224,25110,25334,0.88,"Okanogan County",53047,"Washington","Okanogan County WA",50,4,9,53,47,"4-9-53-47","West","Pacific"
-"30",2021-05-31,"Bradley","TN","Passenger",1,0,1,0,1,100,"Bradley County",47011,"Tennessee","Bradley County TN",50,3,6,47,11,"3-6-47-11","South","East South Central"
-"31",2023-11-30,"New London","CT","Passenger",1,4,5,145,150,3.33,"New London County",9011,"Connecticut","New London County CT",50,1,1,9,11,"1-1-9-11","Northeast","New England"
-"32",2018-09-30,"Latah","ID","Passenger",0,1,1,75,76,1.32,"Latah County",16057,"Idaho","Latah County ID",50,4,8,16,57,"4-8-16-57","West","Mountain"
-"33",2022-12-31,"Queens","NY","Passenger",1,0,1,34,35,2.86,"Queens County",36081,"New York","Queens County NY",50,1,2,36,81,"1-2-36-81","Northeast","Middle Atlantic"
-"34",2020-04-30,"Oklahoma","OK","Passenger",0,1,1,130,131,0.76,"Oklahoma County",40109,"Oklahoma","Oklahoma County OK",50,3,7,40,109,"3-7-40-109","South","West South Central"
-"35",2022-05-31,"Baltimore","MD","Passenger",1,0,1,73,74,1.35,"Baltimore County",24005,"Maryland","Baltimore County MD",50,3,5,24,5,"3-5-24-5","South","South Atlantic"
-"36",2021-11-30,"Polk","FL","Passenger",1,0,1,61,62,1.61,"Polk County",12105,"Florida","Polk County FL",50,3,5,12,105,"3-5-12-105","South","South Atlantic"
-"37",2023-11-30,"Pulaski","AR","Passenger",2,0,2,16,18,11.11,"Pulaski County",5119,"Arkansas","Pulaski County AR",50,3,7,5,119,"3-7-5-119","South","West South Central"
-"38",2022-07-31,"Prince William","VA","Passenger",0,1,1,194,195,0.51,"Prince William County",51153,"Virginia","Prince William County VA",50,3,5,51,153,"3-5-51-153","South","South Atlantic"
-"39",2021-01-31,"Cascade","MT","Passenger",0,1,1,58,59,1.69,"Cascade County",30013,"Montana","Cascade County MT",50,4,8,30,13,"4-8-30-13","West","Mountain"
-"40",2023-11-30,"Polk","OR","Passenger",1,1,2,9,11,18.18,"Polk County",41053,"Oregon","Polk County OR",50,4,9,41,53,"4-9-41-53","West","Pacific"
-"41",2023-11-30,"Leavenworth","KS","Passenger",0,1,1,83,84,1.19,"Leavenworth County",20103,"Kansas","Leavenworth County KS",50,2,4,20,103,"2-4-20-103","Midwest","West North Central"
-"42",2023-11-30,"Champaign","IL","Passenger",1,0,1,11,12,8.33,"Champaign County",17019,"Illinois","Champaign County IL",50,2,3,17,19,"2-3-17-19","Midwest","East North Central"
-"43",2020-04-30,"Lake","CA","Passenger",0,1,1,9,10,10,"Lake County",6033,"California","Lake County CA",50,4,9,6,33,"4-9-6-33","West","Pacific"
-"44",2023-11-30,"Marion","IA","Passenger",1,0,1,0,1,100,"Marion County",19125,"Iowa","Marion County IA",50,2,4,19,125,"2-4-19-125","Midwest","West North Central"
-"45",2023-11-30,"St. Clair","IL","Passenger",1,0,1,82,83,1.2,"St. Clair County",17163,"Illinois","St. Clair County IL",50,2,3,17,163,"2-3-17-163","Midwest","East North Central"
-"46",2021-08-31,"Bucks","PA","Passenger",1,0,1,17,18,5.56,"Bucks County",42017,"Pennsylvania","Bucks County PA",50,1,2,42,17,"1-2-42-17","Northeast","Middle Atlantic"
-"47",2022-12-31,"Penobscot","ME","Passenger",0,1,1,9,10,10,"Penobscot County",23019,"Maine","Penobscot County ME",50,1,1,23,19,"1-1-23-19","Northeast","New England"
-"48",2019-08-31,"Dale","AL","Passenger",0,1,1,55,56,1.79,"Dale County",1045,"Alabama","Dale County AL",50,3,6,1,45,"3-6-1-45","South","East South Central"
-"49",2023-11-30,"El Dorado","CA","Passenger",1,0,1,15,16,6.25,"El Dorado County",6017,"California","El Dorado County CA",50,4,9,6,17,"4-9-6-17","West","Pacific"
-"50",2023-11-30,"Alameda","CA","Passenger",4,0,4,136,140,2.86,"Alameda County",6001,"California","Alameda County CA",50,4,9,6,1,"4-9-6-1","West","Pacific"
-"51",2023-11-30,"Goochland","VA","Passenger",1,2,3,20,23,13.04,"Goochland County",51075,"Virginia","Goochland County VA",50,3,5,51,75,"3-5-51-75","South","South Atlantic"
-"52",2021-11-30,"Milwaukee","WI","Passenger",1,0,1,39,40,2.5,"Milwaukee County",55079,"Wisconsin","Milwaukee County WI",50,2,3,55,79,"2-3-55-79","Midwest","East North Central"
-"53",2023-11-30,"Wilson","TX","Passenger",0,1,1,3,4,25,"Wilson County",48493,"Texas","Wilson County TX",50,3,7,48,493,"3-7-48-493","South","West South Central"
-"54",2023-11-30,"York","VA","Passenger",1,0,1,63,64,1.56,"York County",51199,"Virginia","York County VA",50,3,5,51,199,"3-5-51-199","South","South Atlantic"
-"55",2018-01-31,"Franklin","OH","Passenger",0,1,1,110,111,0.9,"Franklin County",39049,"Ohio","Franklin County OH",50,2,3,39,49,"2-3-39-49","Midwest","East North Central"
-"56",2023-11-30,"Kings","CA","Passenger",2,2,4,251,255,1.57,"Kings County",6031,"California","Kings County CA",50,4,9,6,31,"4-9-6-31","West","Pacific"
-"57",2022-06-30,"San Luis Obispo","CA","Passenger",1,0,1,57,58,1.72,"San Luis Obispo County",6079,"California","San Luis Obispo County CA",50,4,9,6,79,"4-9-6-79","West","Pacific"
-"58",2023-10-31,"Lincoln","OR","Passenger",0,1,1,11,12,8.33,"Lincoln County",41041,"Oregon","Lincoln County OR",50,4,9,41,41,"4-9-41-41","West","Pacific"
-"59",2023-03-31,"Sumter","SC","Passenger",0,1,1,34,35,2.86,"Sumter County",45085,"South Carolina","Sumter County SC",50,3,5,45,85,"3-5-45-85","South","South Atlantic"
-"60",2023-04-30,"Okaloosa","FL","Passenger",0,1,1,93,94,1.06,"Okaloosa County",12091,"Florida","Okaloosa County FL",50,3,5,12,91,"3-5-12-91","South","South Atlantic"
-"61",2023-11-30,"Garfield","OK","Passenger",1,0,1,12,13,7.69,"Garfield County",40047,"Oklahoma","Garfield County OK",50,3,7,40,47,"3-7-40-47","South","West South Central"
-"62",2023-11-30,"DeKalb","GA","Passenger",1,0,1,35,36,2.78,"DeKalb County",13089,"Georgia","DeKalb County GA",50,3,5,13,89,"3-5-13-89","South","South Atlantic"
-"63",2017-05-31,"Monroe","NY","Passenger",1,0,1,27,28,3.57,"Monroe County",36055,"New York","Monroe County NY",50,1,2,36,55,"1-2-36-55","Northeast","Middle Atlantic"
-"64",2023-11-30,"Meade","KY","Passenger",1,0,1,11,12,8.33,"Meade County",21163,"Kentucky","Meade County KY",50,3,6,21,163,"3-6-21-163","South","East South Central"
-"65",2023-11-30,"Sonoma","CA","Passenger",0,1,1,51,52,1.92,"Sonoma County",6097,"California","Sonoma County CA",50,4,9,6,97,"4-9-6-97","West","Pacific"
-"66",2023-11-30,"Elmore","ID","Passenger",1,0,1,8,9,11.11,"Elmore County",16039,"Idaho","Elmore County ID",50,4,8,16,39,"4-8-16-39","West","Mountain"
-"67",2023-11-30,"Pacific","WA","Passenger",87,99,186,15122,15308,1.22,"Pacific County",53049,"Washington","Pacific County WA",50,4,9,53,49,"4-9-53-49","West","Pacific"
-"68",2022-10-31,"Wood","OH","Passenger",0,1,1,4,5,20,"Wood County",39173,"Ohio","Wood County OH",50,2,3,39,173,"2-3-39-173","Midwest","East North Central"
-"69",2022-06-30,"Fresno","CA","Passenger",1,0,1,147,148,0.68,"Fresno County",6019,"California","Fresno County CA",50,4,9,6,19,"4-9-6-19","West","Pacific"
-"70",2023-11-30,"Miami-Dade","FL","Passenger",1,0,1,45,46,2.17,"Miami-Dade County",12086,"Florida","Miami-Dade County FL",50,3,5,12,86,"3-5-12-86","South","South Atlantic"
-"71",2023-11-30,"Rockingham","NH","Passenger",1,0,1,10,11,9.09,"Rockingham County",33015,"New Hampshire","Rockingham County NH",50,1,1,33,15,"1-1-33-15","Northeast","New England"
-"72",2023-11-30,"Calvert","MD","Passenger",1,1,2,62,64,3.12,"Calvert County",24009,"Maryland","Calvert County MD",50,3,5,24,9,"3-5-24-9","South","South Atlantic"
-"73",2023-11-30,"Richmond","NY","Passenger",1,0,1,4,5,20,"Richmond County",36085,"New York","Richmond County NY",50,1,2,36,85,"1-2-36-85","Northeast","Middle Atlantic"
-"74",2023-11-30,"Kitsap","WA","Passenger",3759,1435,5194,170589,175783,2.95,"Kitsap County",53035,"Washington","Kitsap County WA",50,4,9,53,35,"4-9-53-35","West","Pacific"
-"75",2023-11-30,"Washington","MD","Passenger",1,0,1,13,14,7.14,"Washington County",24043,"Maryland","Washington County MD",50,3,5,24,43,"3-5-24-43","South","South Atlantic"
-"76",2023-08-31,"Yavapai","AZ","Passenger",0,1,1,17,18,5.56,"Yavapai County",4025,"Arizona","Yavapai County AZ",50,4,8,4,25,"4-8-4-25","West","Mountain"
-"77",2023-11-30,"Berkeley","SC","Passenger",1,1,2,84,86,2.33,"Berkeley County",45015,"South Carolina","Berkeley County SC",50,3,5,45,15,"3-5-45-15","South","South Atlantic"
-"78",2023-11-30,"Albemarle","VA","Passenger",1,0,1,13,14,7.14,"Albemarle County",51003,"Virginia","Albemarle County VA",50,3,5,51,3,"3-5-51-3","South","South Atlantic"
-"79",2021-07-31,"Jones","GA","Passenger",1,0,1,1,2,50,"Jones County",13169,"Georgia","Jones County GA",50,3,5,13,169,"3-5-13-169","South","South Atlantic"
-"80",2023-11-30,"Douglas","NE","Passenger",1,1,2,24,26,7.69,"Douglas County",31055,"Nebraska","Douglas County NE",50,2,4,31,55,"2-4-31-55","Midwest","West North Central"
-"81",2023-11-30,"James City","VA","Passenger",1,0,1,36,37,2.7,"James City County",51095,"Virginia","James City County VA",50,3,5,51,95,"3-5-51-95","South","South Atlantic"
-"82",2023-07-31,"Arlington","VA","Passenger",1,0,1,108,109,0.92,"Arlington County",51013,"Virginia","Arlington County VA",50,3,5,51,13,"3-5-51-13","South","South Atlantic"
-"83",2023-11-30,"Asotin","WA","Passenger",40,24,64,11989,12053,0.53,"Asotin County",53003,"Washington","Asotin County WA",50,4,9,53,3,"4-9-53-3","West","Pacific"
-"84",2023-11-30,"Wichita","TX","Passenger",2,0,2,28,30,6.67,"Wichita County",48485,"Texas","Wichita County TX",50,3,7,48,485,"3-7-48-485","South","West South Central"
-"85",2020-02-29,"Wayne","MI","Passenger",0,1,1,60,61,1.64,"Wayne County",26163,"Michigan","Wayne County MI",50,2,3,26,163,"2-3-26-163","Midwest","East North Central"
-"86",2020-09-30,"Jefferson","CO","Passenger",0,1,1,57,58,1.72,"Jefferson County",8059,"Colorado","Jefferson County CO",50,4,8,8,59,"4-8-8-59","West","Mountain"
-"87",2018-06-30,"Northampton","PA","Passenger",0,1,1,66,67,1.49,"Northampton County",42095,"Pennsylvania","Northampton County PA",50,1,2,42,95,"1-2-42-95","Northeast","Middle Atlantic"
-"88",2023-11-30,"Galveston","TX","Passenger",0,1,1,14,15,6.67,"Galveston County",48167,"Texas","Galveston County TX",50,3,7,48,167,"3-7-48-167","South","West South Central"
-"89",2023-11-30,"Bartow","GA","Passenger",0,1,1,2,3,33.33,"Bartow County",13015,"Georgia","Bartow County GA",50,3,5,13,15,"3-5-13-15","South","South Atlantic"
-"90",2023-11-30,"Benton","OR","Passenger",1,0,1,25,26,3.85,"Benton County",41003,"Oregon","Benton County OR",50,4,9,41,3,"4-9-41-3","West","Pacific"
-"91",2019-07-31,"Mecklenburg","NC","Passenger",1,0,1,90,91,1.1,"Mecklenburg County",37119,"North Carolina","Mecklenburg County NC",50,3,5,37,119,"3-5-37-119","South","South Atlantic"
-"92",2023-11-30,"Mobile","AL","Passenger",1,0,1,22,23,4.35,"Mobile County",1097,"Alabama","Mobile County AL",50,3,6,1,97,"3-6-1-97","South","East South Central"
-"93",2017-02-28,"Durham","NC","Passenger",0,1,1,38,39,2.56,"Durham County",37063,"North Carolina","Durham County NC",50,3,5,37,63,"3-5-37-63","South","South Atlantic"
-"94",2023-11-30,"San Juan","WA","Passenger",668,188,856,13277,14133,6.06,"San Juan County",53055,"Washington","San Juan County WA",50,4,9,53,55,"4-9-53-55","West","Pacific"
-"95",2023-11-30,"Pend Oreille","WA","Passenger",32,20,52,8523,8575,0.61,"Pend Oreille County",53051,"Washington","Pend Oreille County WA",50,4,9,53,51,"4-9-53-51","West","Pacific"
-"96",2021-02-28,"DeKalb","IN","Passenger",1,0,1,0,1,100,"DeKalb County",18033,"Indiana","DeKalb County IN",50,2,3,18,33,"2-3-18-33","Midwest","East North Central"
-"97",2021-08-31,"Denver","CO","Passenger",1,0,1,117,118,0.85,"Denver County",8031,"Colorado","Denver County CO",50,4,8,8,31,"4-8-8-31","West","Mountain"
-"98",2020-04-30,"Cochise","AZ","Passenger",0,1,1,99,100,1,"Cochise County",4003,"Arizona","Cochise County AZ",50,4,8,4,3,"4-8-4-3","West","Mountain"
-"99",2023-11-30,"Coryell","TX","Passenger",1,0,1,61,62,1.61,"Coryell County",48099,"Texas","Coryell County TX",50,3,7,48,99,"3-7-48-99","South","West South Central"
-"100",2017-04-30,"Lewis","NY","Passenger",0,1,1,10,11,9.09,"Lewis County",36049,"New York","Lewis County NY",50,1,2,36,49,"1-2-36-49","Northeast","Middle Atlantic"
-"101",2017-05-31,"Hidalgo","TX","Passenger",0,1,1,101,102,0.98,"Hidalgo County",48215,"Texas","Hidalgo County TX",50,3,7,48,215,"3-7-48-215","South","West South Central"
-"102",2023-11-30,"Clallam","WA","Passenger",641,309,950,47648,48598,1.95,"Clallam County",53009,"Washington","Clallam County WA",50,4,9,53,9,"4-9-53-9","West","Pacific"
-"103",2023-11-30,"Frederick","MD","Passenger",1,1,2,49,51,3.92,"Frederick County",24021,"Maryland","Frederick County MD",50,3,5,24,21,"3-5-24-21","South","South Atlantic"
-"104",2023-11-30,"Marin","CA","Passenger",0,1,1,25,26,3.85,"Marin County",6041,"California","Marin County CA",50,4,9,6,41,"4-9-6-41","West","Pacific"
-"105",2022-06-30,"Pinellas","FL","Passenger",0,1,1,80,81,1.23,"Pinellas County",12103,"Florida","Pinellas County FL",50,3,5,12,103,"3-5-12-103","South","South Atlantic"
-"106",2023-11-30,"Montgomery","MD","Passenger",5,3,8,165,173,4.62,"Montgomery County",24031,"Maryland","Montgomery County MD",50,3,5,24,31,"3-5-24-31","South","South Atlantic"
-"107",2017-01-31,"Marion","FL","Passenger",1,0,1,26,27,3.7,"Marion County",12083,"Florida","Marion County FL",50,3,5,12,83,"3-5-12-83","South","South Atlantic"
-"108",2020-08-31,"Pinal","AZ","Passenger",1,0,1,183,184,0.54,"Pinal County",4021,"Arizona","Pinal County AZ",50,4,8,4,21,"4-8-4-21","West","Mountain"
-"109",2019-10-31,"Santa Fe","NM","Passenger",0,1,1,42,43,2.33,"Santa Fe County",35049,"New Mexico","Santa Fe County NM",50,4,8,35,49,"4-8-35-49","West","Mountain"
-"110",2023-11-30,"Solano","CA","Passenger",5,0,5,123,128,3.91,"Solano County",6095,"California","Solano County CA",50,4,9,6,95,"4-9-6-95","West","Pacific"
-"111",2023-11-30,"Grays Harbor","WA","Passenger",350,221,571,46653,47224,1.21,"Grays Harbor County",53027,"Washington","Grays Harbor County WA",50,4,9,53,27,"4-9-53-27","West","Pacific"
-"112",2023-11-30,"Columbia","WA","Passenger",12,0,12,2343,2355,0.51,"Columbia County",53013,"Washington","Columbia County WA",50,4,9,53,13,"4-9-53-13","West","Pacific"
-"113",2022-07-31,"Wake","NC","Passenger",1,0,1,89,90,1.11,"Wake County",37183,"North Carolina","Wake County NC",50,3,5,37,183,"3-5-37-183","South","South Atlantic"
-"114",2023-11-30,"Mercer","NJ","Passenger",0,1,1,6,7,14.29,"Mercer County",34021,"New Jersey","Mercer County NJ",50,1,2,34,21,"1-2-34-21","Northeast","Middle Atlantic"
-"115",2023-11-30,"Philadelphia","PA","Passenger",1,0,1,28,29,3.45,"Philadelphia County",42101,"Pennsylvania","Philadelphia County PA",50,1,2,42,101,"1-2-42-101","Northeast","Middle Atlantic"
-"116",2023-11-30,"Lane","OR","Passenger",0,2,2,50,52,3.85,"Lane County",41039,"Oregon","Lane County OR",50,4,9,41,39,"4-9-41-39","West","Pacific"
-"117",2023-11-30,"Gwinnett","GA","Passenger",1,0,1,32,33,3.03,"Gwinnett County",13135,"Georgia","Gwinnett County GA",50,3,5,13,135,"3-5-13-135","South","South Atlantic"
-"118",2023-11-30,"Sarasota","FL","Passenger",1,0,1,12,13,7.69,"Sarasota County",12115,"Florida","Sarasota County FL",50,3,5,12,115,"3-5-12-115","South","South Atlantic"
-"119",2023-11-30,"Kittitas","WA","Passenger",435,113,548,28231,28779,1.9,"Kittitas County",53037,"Washington","Kittitas County WA",50,4,9,53,37,"4-9-53-37","West","Pacific"
-"120",2020-08-31,"Valencia","NM","Passenger",1,0,1,8,9,11.11,"Valencia County",35061,"New Mexico","Valencia County NM",50,4,8,35,61,"4-8-35-61","West","Mountain"
-"121",2023-11-30,"Placer","CA","Passenger",1,0,1,50,51,1.96,"Placer County",6061,"California","Placer County CA",50,4,9,6,61,"4-9-6-61","West","Pacific"
-"122",2018-04-30,"Montgomery","TN","Passenger",1,0,1,276,277,0.36,"Montgomery County",47125,"Tennessee","Montgomery County TN",50,3,6,47,125,"3-6-47-125","South","East South Central"
-"123",2023-11-30,"San Diego","CA","Passenger",17,10,27,1766,1793,1.51,"San Diego County",6073,"California","San Diego County CA",50,4,9,6,73,"4-9-6-73","West","Pacific"
-"124",2023-11-30,"Lincoln","WA","Passenger",20,24,44,7363,7407,0.59,"Lincoln County",53043,"Washington","Lincoln County WA",50,4,9,53,43,"4-9-53-43","West","Pacific"
-"125",2019-11-30,"Sangamon","IL","Passenger",1,0,1,5,6,16.67,"Sangamon County",17167,"Illinois","Sangamon County IL",50,2,3,17,167,"2-3-17-167","Midwest","East North Central"
-"126",2022-12-31,"Clinton","PA","Passenger",1,0,1,1,2,50,"Clinton County",42035,"Pennsylvania","Clinton County PA",50,1,2,42,35,"1-2-42-35","Northeast","Middle Atlantic"
-"127",2021-06-30,"Dakota","MN","Passenger",0,1,1,30,31,3.23,"Dakota County",27037,"Minnesota","Dakota County MN",50,2,4,27,37,"2-4-27-37","Midwest","West North Central"
-"128",2023-04-30,"Montgomery","PA","Passenger",1,0,1,16,17,5.88,"Montgomery County",42091,"Pennsylvania","Montgomery County PA",50,1,2,42,91,"1-2-42-91","Northeast","Middle Atlantic"
-"129",2022-06-30,"Pima","AZ","Passenger",1,0,1,239,240,0.42,"Pima County",4019,"Arizona","Pima County AZ",50,4,8,4,19,"4-8-4-19","West","Mountain"
-"130",2023-11-30,"Garfield","WA","Passenger",0,3,3,1271,1274,0.24,"Garfield County",53023,"Washington","Garfield County WA",50,4,9,53,23,"4-9-53-23","West","Pacific"
-"131",2023-11-30,"Lake","IL","Passenger",6,0,6,111,117,5.13,"Lake County",17097,"Illinois","Lake County IL",50,2,3,17,97,"2-3-17-97","Midwest","East North Central"
-"132",2023-11-30,"Lewis","WA","Passenger",379,289,668,57391,58059,1.15,"Lewis County",53041,"Washington","Lewis County WA",50,4,9,53,41,"4-9-53-41","West","Pacific"
-"133",2023-11-30,"Whitman","WA","Passenger",187,100,287,21365,21652,1.33,"Whitman County",53075,"Washington","Whitman County WA",50,4,9,53,75,"4-9-53-75","West","Pacific"
-"134",2021-08-31,"Hampshire","MA","Passenger",1,0,1,7,8,12.5,"Hampshire County",25015,"Massachusetts","Hampshire County MA",50,1,1,25,15,"1-1-25-15","Northeast","New England"
-"135",2023-11-30,"Kent","DE","Passenger",1,0,1,37,38,2.63,"Kent County",10001,"Delaware","Kent County DE",50,3,5,10,1,"3-5-10-1","South","South Atlantic"
-"136",2023-11-30,"Moore","NC","Passenger",0,1,1,95,96,1.04,"Moore County",37125,"North Carolina","Moore County NC",50,3,5,37,125,"3-5-37-125","South","South Atlantic"
-"137",2023-11-30,"Cumberland","PA","Passenger",1,1,2,26,28,7.14,"Cumberland County",42041,"Pennsylvania","Cumberland County PA",50,1,2,42,41,"1-2-42-41","Northeast","Middle Atlantic"
-"138",2023-08-31,"Palm Beach","FL","Passenger",1,0,1,40,41,2.44,"Palm Beach County",12099,"Florida","Palm Beach County FL",50,3,5,12,99,"3-5-12-99","South","South Atlantic"
-"139",2023-11-30,"St. Mary's","MD","Passenger",1,0,1,161,162,0.62,"St. Mary's County",24037,"Maryland","St. Mary's County MD",50,3,5,24,37,"3-5-24-37","South","South Atlantic"
-"140",2023-11-30,"Los Angeles","CA","Passenger",5,4,9,495,504,1.79,"Los Angeles County",6037,"California","Los Angeles County CA",50,4,9,6,37,"4-9-6-37","West","Pacific"
-"141",2019-11-30,"Volusia","FL","Passenger",0,1,1,44,45,2.22,"Volusia County",12127,"Florida","Volusia County FL",50,3,5,12,127,"3-5-12-127","South","South Atlantic"
-"142",2017-01-31,"Hood River","OR","Passenger",1,0,1,43,44,2.27,"Hood River County",41027,"Oregon","Hood River County OR",50,4,9,41,27,"4-9-41-27","West","Pacific"
-"143",2021-05-31,"Nassau","FL","Passenger",1,0,1,31,32,3.12,"Nassau County",12089,"Florida","Nassau County FL",50,3,5,12,89,"3-5-12-89","South","South Atlantic"
-"144",2023-11-30,"Yellowstone","MT","Passenger",0,1,1,9,10,10,"Yellowstone County",30111,"Montana","Yellowstone County MT",50,4,8,30,111,"4-8-30-111","West","Mountain"
-"145",2023-11-30,"El Paso","CO","Passenger",4,2,6,410,416,1.44,"El Paso County",8041,"Colorado","El Paso County CO",50,4,8,8,41,"4-8-8-41","West","Mountain"
-"146",2018-06-30,"Canyon","ID","Passenger",0,1,1,93,94,1.06,"Canyon County",16027,"Idaho","Canyon County ID",50,4,8,16,27,"4-8-16-27","West","Mountain"
-"147",2020-02-29,"Santa Rosa","FL","Passenger",1,0,1,88,89,1.12,"Santa Rosa County",12113,"Florida","Santa Rosa County FL",50,3,5,12,113,"3-5-12-113","South","South Atlantic"
-"148",2023-11-30,"Thurston","WA","Passenger",3623,1346,4969,183616,188585,2.63,"Thurston County",53067,"Washington","Thurston County WA",50,4,9,53,67,"4-9-53-67","West","Pacific"
-"149",2023-11-30,"Sacramento","CA","Passenger",2,0,2,128,130,1.54,"Sacramento County",6067,"California","Sacramento County CA",50,4,9,6,67,"4-9-6-67","West","Pacific"
-"150",2023-11-30,"Beaufort","SC","Passenger",1,0,1,21,22,4.55,"Beaufort County",45013,"South Carolina","Beaufort County SC",50,3,5,45,13,"3-5-45-13","South","South Atlantic"
-"151",2023-11-30,"Orange","FL","Passenger",1,0,1,44,45,2.22,"Orange County",12095,"Florida","Orange County FL",50,3,5,12,95,"3-5-12-95","South","South Atlantic"
-"152",2021-04-30,"Utah","UT","Passenger",0,1,1,125,126,0.79,"Utah County",49049,"Utah","Utah County UT",50,4,8,49,49,"4-8-49-49","West","Mountain"
-"153",2023-11-30,"Clark","WA","Passenger",6829,2554,9383,303563,312946,3,"Clark County",53011,"Washington","Clark County WA",50,4,9,53,11,"4-9-53-11","West","Pacific"
-"154",2023-11-30,"Platte","MO","Passenger",2,0,2,20,22,9.09,"Platte County",29165,"Missouri","Platte County MO",50,2,4,29,165,"2-4-29-165","Midwest","West North Central"
-"155",2021-03-31,"Twin Falls","ID","Passenger",0,1,1,23,24,4.17,"Twin Falls County",16083,"Idaho","Twin Falls County ID",50,4,8,16,83,"4-8-16-83","West","Mountain"
-"156",2023-11-30,"Hillsborough","FL","Passenger",1,2,3,75,78,3.85,"Hillsborough County",12057,"Florida","Hillsborough County FL",50,3,5,12,57,"3-5-12-57","South","South Atlantic"
-"157",2023-11-30,"Monterey","CA","Passenger",1,2,3,99,102,2.94,"Monterey County",6053,"California","Monterey County CA",50,4,9,6,53,"4-9-6-53","West","Pacific"
-"158",2023-06-30,"Eau Claire","WI","Passenger",1,0,1,1,2,50,"Eau Claire County",55035,"Wisconsin","Eau Claire County WI",50,2,3,55,35,"2-3-55-35","Midwest","East North Central"
-"159",2020-06-30,"Osceola","FL","Passenger",1,0,1,39,40,2.5,"Osceola County",12097,"Florida","Osceola County FL",50,3,5,12,97,"3-5-12-97","South","South Atlantic"
-"160",2023-11-30,"Skamania","WA","Passenger",129,52,181,7741,7922,2.28,"Skamania County",53059,"Washington","Skamania County WA",50,4,9,53,59,"4-9-53-59","West","Pacific"
-"161",2023-11-30,"Kauai","HI","Passenger",0,1,1,14,15,6.67,"Kauai County",15007,"Hawaii","Kauai County HI",50,4,9,15,7,"4-9-15-7","West","Pacific"
-"162",2019-07-31,"Marion","OR","Passenger",1,0,1,122,123,0.81,"Marion County",41047,"Oregon","Marion County OR",50,4,9,41,47,"4-9-41-47","West","Pacific"
-"163",2023-11-30,"Maricopa","AZ","Passenger",6,2,8,517,525,1.52,"Maricopa County",4013,"Arizona","Maricopa County AZ",50,4,8,4,13,"4-8-4-13","West","Mountain"
-"164",2023-02-28,"Lee","FL","Passenger",1,0,1,31,32,3.12,"Lee County",12071,"Florida","Lee County FL",50,3,5,12,71,"3-5-12-71","South","South Atlantic"
-"165",2023-11-30,"Fulton","GA","Passenger",1,0,1,38,39,2.56,"Fulton County",13121,"Georgia","Fulton County GA",50,3,5,13,121,"3-5-13-121","South","South Atlantic"
-"166",2022-08-31,"Rogers","OK","Passenger",1,0,1,2,3,33.33,"Rogers County",40131,"Oklahoma","Rogers County OK",50,3,7,40,131,"3-7-40-131","South","West South Central"
-"167",2023-11-30,"Sedgwick","KS","Passenger",1,0,1,44,45,2.22,"Sedgwick County",20173,"Kansas","Sedgwick County KS",50,2,4,20,173,"2-4-20-173","Midwest","West North Central"
-"168",2023-11-30,"Ray","MO","Passenger",0,1,1,0,1,100,"Ray County",29177,"Missouri","Ray County MO",50,2,4,29,177,"2-4-29-177","Midwest","West North Central"
-"169",2017-04-30,"Douglas","OR","Passenger",0,1,1,74,75,1.33,"Douglas County",41019,"Oregon","Douglas County OR",50,4,9,41,19,"4-9-41-19","West","Pacific"
-"170",2023-11-30,"Grant","WA","Passenger",346,151,497,64832,65329,0.76,"Grant County",53025,"Washington","Grant County WA",50,4,9,53,25,"4-9-53-25","West","Pacific"
-"171",2023-11-30,"Harrison","MS","Passenger",1,0,1,25,26,3.85,"Harrison County",28047,"Mississippi","Harrison County MS",50,3,6,28,47,"3-6-28-47","South","East South Central"
-"172",2023-11-30,"Douglas","WA","Passenger",239,78,317,27938,28255,1.12,"Douglas County",53017,"Washington","Douglas County WA",50,4,9,53,17,"4-9-53-17","West","Pacific"
-"173",2023-11-30,"Burlington","NJ","Passenger",2,2,4,78,82,4.88,"Burlington County",34005,"New Jersey","Burlington County NJ",50,1,2,34,5,"1-2-34-5","Northeast","Middle Atlantic"
-"174",2022-05-31,"Powhatan","VA","Passenger",1,0,1,1,2,50,"Powhatan County",51145,"Virginia","Powhatan County VA",50,3,5,51,145,"3-5-51-145","South","South Atlantic"
-"175",2022-05-31,"Kings","NY","Passenger",1,0,1,61,62,1.61,"Kings County",36047,"New York","Kings County NY",50,1,2,36,47,"1-2-36-47","Northeast","Middle Atlantic"
-"176",2023-01-31,"Bryan","GA","Passenger",0,1,1,33,34,2.94,"Bryan County",13029,"Georgia","Bryan County GA",50,3,5,13,29,"3-5-13-29","South","South Atlantic"
-"177",2023-11-30,"Stevens","WA","Passenger",134,74,208,28581,28789,0.72,"Stevens County",53065,"Washington","Stevens County WA",50,4,9,53,65,"4-9-53-65","West","Pacific"
-"178",2023-11-30,"Rockdale","GA","Passenger",1,0,1,5,6,16.67,"Rockdale County",13247,"Georgia","Rockdale County GA",50,3,5,13,247,"3-5-13-247","South","South Atlantic"
-"179",2023-02-28,"Montgomery","AL","Passenger",0,1,1,34,35,2.86,"Montgomery County",1101,"Alabama","Montgomery County AL",50,3,6,1,101,"3-6-1-101","South","East South Central"
-"180",2023-08-31,"Napa","CA","Passenger",0,1,1,10,11,9.09,"Napa County",6055,"California","Napa County CA",50,4,9,6,55,"4-9-6-55","West","Pacific"
-"181",2023-11-30,"Bexar","TX","Passenger",1,3,4,318,322,1.24,"Bexar County",48029,"Texas","Bexar County TX",50,3,7,48,29,"3-7-48-29","South","West South Central"
-"182",2023-11-30,"Benton","WA","Passenger",1321,613,1934,130938,132872,1.46,"Benton County",53005,"Washington","Benton County WA",50,4,9,53,5,"4-9-53-5","West","Pacific"
-"183",2023-11-30,"Madison","IL","Passenger",1,0,1,13,14,7.14,"Madison County",17119,"Illinois","Madison County IL",50,2,3,17,119,"2-3-17-119","Midwest","East North Central"
-"184",2017-07-31,"Dane","WI","Passenger",1,0,1,87,88,1.14,"Dane County",55025,"Wisconsin","Dane County WI",50,2,3,55,25,"2-3-55-25","Midwest","East North Central"
-"185",2023-11-30,"St. Louis","MO","Passenger",1,0,1,43,44,2.27,"St. Louis County",29189,"Missouri","St. Louis County MO",50,2,4,29,189,"2-4-29-189","Midwest","West North Central"
-"186",2023-11-30,"Las Animas","CO","Passenger",1,0,1,0,1,100,"Las Animas County",8071,"Colorado","Las Animas County CO",50,4,8,8,71,"4-8-8-71","West","Mountain"
-"187",2023-11-30,"Carroll","MD","Passenger",0,1,1,17,18,5.56,"Carroll County",24013,"Maryland","Carroll County MD",50,3,5,24,13,"3-5-24-13","South","South Atlantic"
-"188",2022-10-31,"Fort Bend","TX","Passenger",1,0,1,22,23,4.35,"Fort Bend County",48157,"Texas","Fort Bend County TX",50,3,7,48,157,"3-7-48-157","South","West South Central"
-"189",2023-11-30,"Multnomah","OR","Passenger",1,1,2,324,326,0.61,"Multnomah County",41051,"Oregon","Multnomah County OR",50,4,9,41,51,"4-9-41-51","West","Pacific"
-"190",2023-11-30,"Snohomish","WA","Passenger",15203,3394,18597,510033,528630,3.52,"Snohomish County",53061,"Washington","Snohomish County WA",50,4,9,53,61,"4-9-53-61","West","Pacific"
-"191",2023-08-31,"Hudson","NJ","Passenger",1,0,1,16,17,5.88,"Hudson County",34017,"New Jersey","Hudson County NJ",50,1,2,34,17,"1-2-34-17","Northeast","Middle Atlantic"
-"192",2023-11-30,"Hardin","KY","Passenger",1,0,1,48,49,2.04,"Hardin County",21093,"Kentucky","Hardin County KY",50,3,6,21,93,"3-6-21-93","South","East South Central"
-"193",2023-11-30,"Honolulu","HI","Passenger",3,2,5,210,215,2.33,"Honolulu County",15003,"Hawaii","Honolulu County HI",50,4,9,15,3,"4-9-15-3","West","Pacific"
-"194",2023-11-30,"San Joaquin","CA","Passenger",0,1,1,59,60,1.67,"San Joaquin County",6077,"California","San Joaquin County CA",50,4,9,6,77,"4-9-6-77","West","Pacific"
-"195",2022-05-31,"New York","NY","Passenger",1,0,1,36,37,2.7,"New York County",36061,"New York","New York County NY",50,1,2,36,61,"1-2-36-61","Northeast","Middle Atlantic"
-"196",2021-03-31,"Kent","MI","Passenger",0,1,1,27,28,3.57,"Kent County",26081,"Michigan","Kent County MI",50,2,3,26,81,"2-3-26-81","Midwest","East North Central"
-"197",2023-11-30,"Santa Clara","CA","Passenger",9,2,11,129,140,7.86,"Santa Clara County",6085,"California","Santa Clara County CA",50,4,9,6,85,"4-9-6-85","West","Pacific"
-"198",2023-11-30,"Adams","CO","Passenger",1,0,1,19,20,5,"Adams County",8001,"Colorado","Adams County CO",50,4,8,8,1,"4-8-8-1","West","Mountain"
-"199",2023-11-30,"Boulder","CO","Passenger",1,0,1,21,22,4.55,"Boulder County",8013,"Colorado","Boulder County CO",50,4,8,8,13,"4-8-8-13","West","Mountain"
-"200",2023-11-30,"Wahkiakum","WA","Passenger",31,22,53,2968,3021,1.75,"Wahkiakum County",53069,"Washington","Wahkiakum County WA",50,4,9,53,69,"4-9-53-69","West","Pacific"
-"201",2022-04-30,"Wilson","NC","Passenger",1,0,1,0,1,100,"Wilson County",37195,"North Carolina","Wilson County NC",50,3,5,37,195,"3-5-37-195","South","South Atlantic"
-"202",2019-08-31,"Kalamazoo","MI","Passenger",1,0,1,15,16,6.25,"Kalamazoo County",26077,"Michigan","Kalamazoo County MI",50,2,3,26,77,"2-3-26-77","Midwest","East North Central"
-"203",2023-11-30,"Loudoun","VA","Passenger",2,0,2,53,55,3.64,"Loudoun County",51107,"Virginia","Loudoun County VA",50,3,5,51,107,"3-5-51-107","South","South Atlantic"
-"204",2023-11-30,"Lake","IN","Passenger",0,1,1,4,5,20,"Lake County",18089,"Indiana","Lake County IN",50,2,3,18,89,"2-3-18-89","Midwest","East North Central"
-"205",2023-11-30,"San Bernardino","CA","Passenger",2,1,3,220,223,1.35,"San Bernardino County",6071,"California","San Bernardino County CA",50,4,9,6,71,"4-9-6-71","West","Pacific"
-"206",2017-01-31,"Brown","WI","Passenger",1,0,1,46,47,2.13,"Brown County",55009,"Wisconsin","Brown County WI",50,2,3,55,9,"2-3-55-9","Midwest","East North Central"
-"207",2023-11-30,"Middlesex","MA","Passenger",2,1,3,54,57,5.26,"Middlesex County",25017,"Massachusetts","Middlesex County MA",50,1,1,25,17,"1-1-25-17","Northeast","New England"
-"208",2023-11-30,"Anne Arundel","MD","Passenger",6,3,9,264,273,3.3,"Anne Arundel County",24003,"Maryland","Anne Arundel County MD",50,3,5,24,3,"3-5-24-3","South","South Atlantic"
-"209",2023-11-30,"El Paso","TX","Passenger",3,0,3,236,239,1.26,"El Paso County",48141,"Texas","El Paso County TX",50,3,7,48,141,"3-7-48-141","South","West South Central"
-"210",2017-09-30,"Cobb","GA","Passenger",0,1,1,71,72,1.39,"Cobb County",13067,"Georgia","Cobb County GA",50,3,5,13,67,"3-5-13-67","South","South Atlantic"
-"211",2023-11-30,"Rock Island","IL","Passenger",0,1,1,10,11,9.09,"Rock Island County",17161,"Illinois","Rock Island County IL",50,2,3,17,161,"2-3-17-161","Midwest","East North Central"
-"212",2023-11-30,"Brevard","FL","Passenger",1,0,1,48,49,2.04,"Brevard County",12009,"Florida","Brevard County FL",50,3,5,12,9,"3-5-12-9","South","South Atlantic"
-"213",2023-11-30,"Orange","CA","Passenger",7,3,10,254,264,3.79,"Orange County",6059,"California","Orange County CA",50,4,9,6,59,"4-9-6-59","West","Pacific"
-"214",2023-11-30,"Larimer","CO","Passenger",1,0,1,20,21,4.76,"Larimer County",8069,"Colorado","Larimer County CO",50,4,8,8,69,"4-8-8-69","West","Mountain"
-"215",2023-09-30,"Broward","FL","Passenger",1,0,1,56,57,1.75,"Broward County",12011,"Florida","Broward County FL",50,3,5,12,11,"3-5-12-11","South","South Atlantic"
-"216",2023-08-31,"Dorchester","SC","Passenger",1,0,1,35,36,2.78,"Dorchester County",45035,"South Carolina","Dorchester County SC",50,3,5,45,35,"3-5-45-35","South","South Atlantic"
-"217",2023-11-30,"Maui","HI","Passenger",1,0,1,18,19,5.26,"Maui County",15009,"Hawaii","Maui County HI",50,4,9,15,9,"4-9-15-9","West","Pacific"
-"218",2023-11-30,"Orange","NC","Passenger",0,1,1,3,4,25,"Orange County",37135,"North Carolina","Orange County NC",50,3,5,37,135,"3-5-37-135","South","South Atlantic"
-"219",2022-02-28,"Klamath","OR","Passenger",1,0,1,30,31,3.23,"Klamath County",41035,"Oregon","Klamath County OR",50,4,9,41,35,"4-9-41-35","West","Pacific"
-"220",2021-11-30,"Bernalillo","NM","Passenger",1,0,1,113,114,0.88,"Bernalillo County",35001,"New Mexico","Bernalillo County NM",50,4,8,35,1,"4-8-35-1","West","Mountain"
-"221",2022-04-30,"Shelby","OH","Passenger",0,1,1,2,3,33.33,"Shelby County",39149,"Ohio","Shelby County OH",50,2,3,39,149,"2-3-39-149","Midwest","East North Central"
-"222",2021-05-31,"Tulsa","OK","Passenger",1,0,1,41,42,2.38,"Tulsa County",40143,"Oklahoma","Tulsa County OK",50,3,7,40,143,"3-7-40-143","South","West South Central"
-"223",2023-11-30,"Hawaii","HI","Passenger",1,0,1,25,26,3.85,"Hawaii County",15001,"Hawaii","Hawaii County HI",50,4,9,15,1,"4-9-15-1","West","Pacific"
-"224",2017-08-31,"Jackson","MO","Passenger",1,0,1,58,59,1.69,"Jackson County",29095,"Missouri","Jackson County MO",50,2,4,29,95,"2-4-29-95","Midwest","West North Central"
-"225",2021-11-30,"Saginaw","MI","Passenger",1,0,1,8,9,11.11,"Saginaw County",26145,"Michigan","Saginaw County MI",50,2,3,26,145,"2-3-26-145","Midwest","East North Central"
-"226",2021-10-31,"Dallas","IA","Passenger",0,1,1,8,9,11.11,"Dallas County",19049,"Iowa","Dallas County IA",50,2,4,19,49,"2-4-19-49","Midwest","West North Central"
-"227",2023-11-30,"Sarpy","NE","Passenger",1,0,1,44,45,2.22,"Sarpy County",31153,"Nebraska","Sarpy County NE",50,2,4,31,153,"2-4-31-153","Midwest","West North Central"
-"228",2021-04-30,"Ramsey","MN","Passenger",1,0,1,32,33,3.03,"Ramsey County",27123,"Minnesota","Ramsey County MN",50,2,4,27,123,"2-4-27-123","Midwest","West North Central"
-"229",2023-11-30,"Atlantic","NJ","Passenger",1,0,1,7,8,12.5,"Atlantic County",34001,"New Jersey","Atlantic County NJ",50,1,2,34,1,"1-2-34-1","Northeast","Middle Atlantic"
-"230",2023-11-30,"New Haven","CT","Passenger",0,2,2,23,25,8,"New Haven County",9009,"Connecticut","New Haven County CT",50,1,1,9,9,"1-1-9-9","Northeast","New England"
-"231",2023-11-30,"Escambia","FL","Passenger",0,1,1,102,103,0.97,"Escambia County",12033,"Florida","Escambia County FL",50,3,5,12,33,"3-5-12-33","South","South Atlantic"
-"232",2022-10-31,"Spartanburg","SC","Passenger",0,1,1,29,30,3.33,"Spartanburg County",45083,"South Carolina","Spartanburg County SC",50,3,5,45,83,"3-5-45-83","South","South Atlantic"
-"233",2023-11-30,"Washtenaw","MI","Passenger",0,1,1,15,16,6.25,"Washtenaw County",26161,"Michigan","Washtenaw County MI",50,2,3,26,161,"2-3-26-161","Midwest","East North Central"
-"234",2023-11-30,"Stafford","VA","Passenger",3,0,3,70,73,4.11,"Stafford County",51179,"Virginia","Stafford County VA",50,3,5,51,179,"3-5-51-179","South","South Atlantic"
-"235",2023-11-30,"Allen","IN","Passenger",1,0,1,8,9,11.11,"Allen County",18003,"Indiana","Allen County IN",50,2,3,18,3,"2-3-18-3","Midwest","East North Central"
-"236",2023-11-30,"Houston","GA","Passenger",1,0,1,24,25,4,"Houston County",13153,"Georgia","Houston County GA",50,3,5,13,153,"3-5-13-153","South","South Atlantic"
-"237",2023-11-30,"Clark","NV","Passenger",4,2,6,322,328,1.83,"Clark County",32003,"Nevada","Clark County NV",50,4,8,32,3,"4-8-32-3","West","Mountain"
-"238",2023-02-28,"Allegheny","PA","Passenger",1,0,1,54,55,1.82,"Allegheny County",42003,"Pennsylvania","Allegheny County PA",50,1,2,42,3,"1-2-42-3","Northeast","Middle Atlantic"
-"239",2023-11-30,"Lee","AL","Passenger",1,0,1,12,13,7.69,"Lee County",1081,"Alabama","Lee County AL",50,3,6,1,81,"3-6-1-81","South","East South Central"
-"240",2022-08-31,"Hamilton","IN","Passenger",1,0,1,19,20,5,"Hamilton County",18057,"Indiana","Hamilton County IN",50,2,3,18,57,"2-3-18-57","Midwest","East North Central"
-"241",2017-05-31,"Muscogee","GA","Passenger",0,1,1,244,245,0.41,"Muscogee County",13215,"Georgia","Muscogee County GA",50,3,5,13,215,"3-5-13-215","South","South Atlantic"
-"242",2023-11-30,"Howard","MD","Passenger",0,2,2,45,47,4.26,"Howard County",24027,"Maryland","Howard County MD",50,3,5,24,27,"3-5-24-27","South","South Atlantic"
-"243",2023-11-30,"Ferry","WA","Passenger",22,4,26,4128,4154,0.63,"Ferry County",53019,"Washington","Ferry County WA",50,4,9,53,19,"4-9-53-19","West","Pacific"
-"244",2023-11-30,"Sheridan","WY","Passenger",1,0,1,4,5,20,"Sheridan County",56033,"Wyoming","Sheridan County WY",50,4,8,56,33,"4-8-56-33","West","Mountain"
-"245",2023-07-31,"Jackson","OK","Passenger",0,1,1,29,30,3.33,"Jackson County",40065,"Oklahoma","Jackson County OK",50,3,7,40,65,"3-7-40-65","South","West South Central"
-"246",2017-11-30,"Tulare","CA","Passenger",1,0,1,189,190,0.53,"Tulare County",6107,"California","Tulare County CA",50,4,9,6,107,"4-9-6-107","West","Pacific"
-"247",2023-08-31,"Deschutes","OR","Passenger",1,0,1,50,51,1.96,"Deschutes County",41017,"Oregon","Deschutes County OR",50,4,9,41,17,"4-9-41-17","West","Pacific"
-"248",2023-11-30,"Harford","MD","Passenger",1,1,2,41,43,4.65,"Harford County",24025,"Maryland","Harford County MD",50,3,5,24,25,"3-5-24-25","South","South Atlantic"
-"249",2021-04-30,"Putnam","TN","Passenger",0,1,1,1,2,50,"Putnam County",47141,"Tennessee","Putnam County TN",50,3,6,47,141,"3-6-47-141","South","East South Central"
-"250",2017-02-28,"Shoshone","ID","Passenger",0,1,1,82,83,1.2,"Shoshone County",16079,"Idaho","Shoshone County ID",50,4,8,16,79,"4-8-16-79","West","Mountain"
-"251",2023-07-31,"Douglas","CO","Passenger",0,1,1,56,57,1.75,"Douglas County",8035,"Colorado","Douglas County CO",50,4,8,8,35,"4-8-8-35","West","Mountain"
-"252",2023-11-30,"Ventura","CA","Passenger",3,2,5,185,190,2.63,"Ventura County",6111,"California","Ventura County CA",50,4,9,6,111,"4-9-6-111","West","Pacific"
-"253",2018-05-31,"Hamilton","TN","Passenger",1,0,1,23,24,4.17,"Hamilton County",47065,"Tennessee","Hamilton County TN",50,3,6,47,65,"3-6-47-65","South","East South Central"
-"254",2017-01-31,"Union","OH","Passenger",1,0,1,4,5,20,"Union County",39159,"Ohio","Union County OH",50,2,3,39,159,"2-3-39-159","Midwest","East North Central"
-"255",2023-11-30,"Saratoga","NY","Passenger",1,1,2,30,32,6.25,"Saratoga County",36091,"New York","Saratoga County NY",50,1,2,36,91,"1-2-36-91","Northeast","Middle Atlantic"
-"256",2021-03-31,"Washoe","NV","Passenger",1,0,1,103,104,0.96,"Washoe County",32031,"Nevada","Washoe County NV",50,4,8,32,31,"4-8-32-31","West","Mountain"
-"257",2023-11-30,"Hoke","NC","Passenger",1,0,1,54,55,1.82,"Hoke County",37093,"North Carolina","Hoke County NC",50,3,5,37,93,"3-5-37-93","South","South Atlantic"
-"258",2023-11-30,"Skagit","WA","Passenger",1286,466,1752,85845,87597,2,"Skagit County",53057,"Washington","Skagit County WA",50,4,9,53,57,"4-9-53-57","West","Pacific"
-"259",2022-02-28,"Yamhill","OR","Passenger",1,0,1,37,38,2.63,"Yamhill County",41071,"Oregon","Yamhill County OR",50,4,9,41,71,"4-9-41-71","West","Pacific"
-"260",2023-11-30,"Montgomery","OH","Passenger",0,1,1,36,37,2.7,"Montgomery County",39113,"Ohio","Montgomery County OH",50,2,3,39,113,"2-3-39-113","Midwest","East North Central"
-"261",2023-11-30,"Kern","CA","Passenger",1,1,2,140,142,1.41,"Kern County",6029,"California","Kern County CA",50,4,9,6,29,"4-9-6-29","West","Pacific"
-"262",2023-11-30,"Essex","NJ","Passenger",2,0,2,6,8,25,"Essex County",34013,"New Jersey","Essex County NJ",50,1,2,34,13,"1-2-34-13","Northeast","Middle Atlantic"
-"263",2023-11-30,"Pierce","WA","Passenger",8989,3068,12057,509017,521074,2.31,"Pierce County",53053,"Washington","Pierce County WA",50,4,9,53,53,"4-9-53-53","West","Pacific"
-"264",2021-03-31,"Monroe","IL","Passenger",1,0,1,2,3,33.33,"Monroe County",17133,"Illinois","Monroe County IL",50,2,3,17,133,"2-3-17-133","Midwest","East North Central"
-"265",2023-11-30,"Hennepin","MN","Passenger",1,0,1,26,27,3.7,"Hennepin County",27053,"Minnesota","Hennepin County MN",50,2,4,27,53,"2-4-27-53","Midwest","West North Central"
-"266",2023-11-30,"Spokane","WA","Passenger",2750,1328,4078,312860,316938,1.29,"Spokane County",53063,"Washington","Spokane County WA",50,4,9,53,63,"4-9-53-63","West","Pacific"
-"267",2023-11-30,"Adams","WA","Passenger",28,13,41,12544,12585,0.33,"Adams County",53001,"Washington","Adams County WA",50,4,9,53,1,"4-9-53-1","West","Pacific"
-"268",2023-11-30,"Cook","IL","Passenger",3,1,4,125,129,3.1,"Cook County",17031,"Illinois","Cook County IL",50,2,3,17,31,"2-3-17-31","Midwest","East North Central"
-"269",2023-11-30,"Richmond","GA","Passenger",0,1,1,54,55,1.82,"Richmond County",13245,"Georgia","Richmond County GA",50,3,5,13,245,"3-5-13-245","South","South Atlantic"
-"270",2023-11-30,"Shasta","CA","Passenger",1,0,1,19,20,5,"Shasta County",6089,"California","Shasta County CA",50,4,9,6,89,"4-9-6-89","West","Pacific"
-"271",2022-09-30,"Tarrant","TX","Passenger",1,0,1,106,107,0.93,"Tarrant County",48439,"Texas","Tarrant County TX",50,3,7,48,439,"3-7-48-439","South","West South Central"
-"272",2023-11-30,"Salt Lake","UT","Passenger",1,1,2,72,74,2.7,"Salt Lake County",49035,"Utah","Salt Lake County UT",50,4,8,49,35,"4-8-49-35","West","Mountain"
-"273",2019-11-30,"Franklin","MA","Passenger",0,1,1,1,2,50,"Franklin County",25011,"Massachusetts","Franklin County MA",50,1,1,25,11,"1-1-25-11","Northeast","New England"
-"274",2019-01-31,"Madison","ID","Passenger",1,0,1,37,38,2.63,"Madison County",16065,"Idaho","Madison County ID",50,4,8,16,65,"4-8-16-65","West","Mountain"
-"275",2023-09-30,"Henrico","VA","Passenger",0,1,1,5,6,16.67,"Henrico County",51087,"Virginia","Henrico County VA",50,3,5,51,87,"3-5-51-87","South","South Atlantic"
-"276",2023-11-30,"Camden","NJ","Passenger",0,1,1,11,12,8.33,"Camden County",34007,"New Jersey","Camden County NJ",50,1,2,34,7,"1-2-34-7","Northeast","Middle Atlantic"
-"277",2023-11-30,"Whatcom","WA","Passenger",2828,995,3823,142821,146644,2.61,"Whatcom County",53073,"Washington","Whatcom County WA",50,4,9,53,73,"4-9-53-73","West","Pacific"
-"278",2020-01-31,"Berkshire","MA","Passenger",0,1,1,5,6,16.67,"Berkshire County",25003,"Massachusetts","Berkshire County MA",50,1,1,25,3,"1-1-25-3","Northeast","New England"
-"279",2023-11-30,"Collier","FL","Passenger",1,0,1,10,11,9.09,"Collier County",12021,"Florida","Collier County FL",50,3,5,12,21,"3-5-12-21","South","South Atlantic"
-"280",2023-06-30,"Eagle","CO","Passenger",1,0,1,8,9,11.11,"Eagle County",8037,"Colorado","Eagle County CO",50,4,8,8,37,"4-8-8-37","West","Mountain"
-"281",2019-05-31,"St. Lucie","FL","Passenger",1,0,1,29,30,3.33,"St. Lucie County",12111,"Florida","St. Lucie County FL",50,3,5,12,111,"3-5-12-111","South","South Atlantic"
-"282",2023-11-30,"Charles","MD","Passenger",1,1,2,47,49,4.08,"Charles County",24017,"Maryland","Charles County MD",50,3,5,24,17,"3-5-24-17","South","South Atlantic"
-"283",2022-12-31,"Carroll","NH","Passenger",0,1,1,5,6,16.67,"Carroll County",33003,"New Hampshire","Carroll County NH",50,1,1,33,3,"1-1-33-3","Northeast","New England"
-"284",2023-11-30,"Island","WA","Passenger",1246,467,1713,59422,61135,2.8,"Island County",53029,"Washington","Island County WA",50,4,9,53,29,"4-9-53-29","West","Pacific"
-"285",2019-08-31,"Bergen","NJ","Passenger",1,0,1,27,28,3.57,"Bergen County",34003,"New Jersey","Bergen County NJ",50,1,2,34,3,"1-2-34-3","Northeast","Middle Atlantic"
-"286",2021-06-30,"Sumter","FL","Passenger",0,1,1,8,9,11.11,"Sumter County",12119,"Florida","Sumter County FL",50,3,5,12,119,"3-5-12-119","South","South Atlantic"
-"287",2023-11-30,"Hamilton","OH","Passenger",1,0,1,23,24,4.17,"Hamilton County",39061,"Ohio","Hamilton County OH",50,2,3,39,61,"2-3-39-61","Midwest","East North Central"
-"288",2023-11-30,"Yakima","WA","Passenger",605,288,893,160400,161293,0.55,"Yakima County",53077,"Washington","Yakima County WA",50,4,9,53,77,"4-9-53-77","West","Pacific"
-"289",2019-08-31,"Nantucket","MA","Passenger",1,0,1,2,3,33.33,"Nantucket County",25019,"Massachusetts","Nantucket County MA",50,1,1,25,19,"1-1-25-19","Northeast","New England"
-"290",2023-11-30,"King","WA","Passenger",66524,16031,82555,1281953,1364508,6.05,"King County",53033,"Washington","King County WA",50,4,9,53,33,"4-9-53-33","West","Pacific"
-"291",2022-11-30,"Williams","ND","Passenger",0,1,1,5,6,16.67,"Williams County",38105,"North Dakota","Williams County ND",50,2,4,38,105,"2-4-38-105","Midwest","West North Central"
-"292",2023-11-30,"Pitt","NC","Passenger",0,1,1,3,4,25,"Pitt County",37147,"North Carolina","Pitt County NC",50,3,5,37,147,"3-5-37-147","South","South Atlantic"
-"293",2023-11-30,"Contra Costa","CA","Passenger",0,2,2,156,158,1.27,"Contra Costa County",6013,"California","Contra Costa County CA",50,4,9,6,13,"4-9-6-13","West","Pacific"
-"294",2023-11-30,"Cumberland","NC","Passenger",1,3,4,275,279,1.43,"Cumberland County",37051,"North Carolina","Cumberland County NC",50,3,5,37,51,"3-5-37-51","South","South Atlantic"
-"295",2023-11-30,"Cowlitz","WA","Passenger",558,241,799,67349,68148,1.17,"Cowlitz County",53015,"Washington","Cowlitz County WA",50,4,9,53,15,"4-9-53-15","West","Pacific"
-"296",2023-11-30,"Travis","TX","Passenger",2,0,2,65,67,2.99,"Travis County",48453,"Texas","Travis County TX",50,3,7,48,453,"3-7-48-453","South","West South Central"
-"297",2023-03-31,"Louisa","VA","Passenger",0,1,1,1,2,50,"Louisa County",51109,"Virginia","Louisa County VA",50,3,5,51,109,"3-5-51-109","South","South Atlantic"
-"298",2023-07-31,"Washington","OR","Passenger",1,0,1,223,224,0.45,"Washington County",41067,"Oregon","Washington County OR",50,4,9,41,67,"4-9-41-67","West","Pacific"
-"299",2023-11-30,"Harris","TX","Passenger",1,0,1,91,92,1.09,"Harris County",48201,"Texas","Harris County TX",50,3,7,48,201,"3-7-48-201","South","West South Central"
-"300",2023-11-30,"Parker","TX","Passenger",0,1,1,11,12,8.33,"Parker County",48367,"Texas","Parker County TX",50,3,7,48,367,"3-7-48-367","South","West South Central"
-"301",2020-08-31,"Clay","FL","Passenger",0,1,1,81,82,1.22,"Clay County",12019,"Florida","Clay County FL",50,3,5,12,19,"3-5-12-19","South","South Atlantic"
-"302",2020-09-30,"Shelby","TN","Passenger",0,1,1,83,84,1.19,"Shelby County",47157,"Tennessee","Shelby County TN",50,3,6,47,157,"3-6-47-157","South","East South Central"
-"303",2023-11-30,"Currituck","NC","Passenger",1,0,1,15,16,6.25,"Currituck County",37053,"North Carolina","Currituck County NC",50,3,5,37,53,"3-5-37-53","South","South Atlantic"
-"304",2023-05-31,"Nassau","NY","Passenger",2,0,2,24,26,7.69,"Nassau County",36059,"New York","Nassau County NY",50,1,2,36,59,"1-2-36-59","Northeast","Middle Atlantic"
-"305",2022-03-31,"Flathead","MT","Passenger",1,0,1,42,43,2.33,"Flathead County",30029,"Montana","Flathead County MT",50,4,8,30,29,"4-8-30-29","West","Mountain"
-"306",2023-11-30,"Harnett","NC","Passenger",4,0,4,118,122,3.28,"Harnett County",37085,"North Carolina","Harnett County NC",50,3,5,37,85,"3-5-37-85","South","South Atlantic"
-"307",2019-12-31,"Norfolk","MA","Passenger",1,0,1,36,37,2.7,"Norfolk County",25021,"Massachusetts","Norfolk County MA",50,1,1,25,21,"1-1-25-21","Northeast","New England"
-"308",2023-02-28,"Lake","FL","Passenger",1,0,1,14,15,6.67,"Lake County",12069,"Florida","Lake County FL",50,3,5,12,69,"3-5-12-69","South","South Atlantic"
-"309",2023-11-30,"Franklin","WA","Passenger",366,155,521,59908,60429,0.86,"Franklin County",53021,"Washington","Franklin County WA",50,4,9,53,21,"4-9-53-21","West","Pacific"
-"310",2023-11-30,"Onslow","NC","Passenger",0,1,1,123,124,0.81,"Onslow County",37133,"North Carolina","Onslow County NC",50,3,5,37,133,"3-5-37-133","South","South Atlantic"
-"311",2023-11-30,"Richland","SC","Passenger",0,1,1,87,88,1.14,"Richland County",45079,"South Carolina","Richland County SC",50,3,5,45,79,"3-5-45-79","South","South Atlantic"
-"312",2023-11-30,"Fairfax","VA","Passenger",5,4,9,493,502,1.79,"Fairfax County",51059,"Virginia","Fairfax County VA",50,3,5,51,59,"3-5-51-59","South","South Atlantic"
-"313",2022-02-28,"San Francisco","CA","Passenger",0,1,1,91,92,1.09,"San Francisco County",6075,"California","San Francisco County CA",50,4,9,6,75,"4-9-6-75","West","Pacific"
-"314",2019-02-28,"Marion","IN","Passenger",1,0,1,115,116,0.86,"Marion County",18097,"Indiana","Marion County IN",50,2,3,18,97,"2-3-18-97","Midwest","East North Central"
-"315",2022-07-31,"Greene","MO","Passenger",0,1,1,25,26,3.85,"Greene County",29077,"Missouri","Greene County MO",50,2,4,29,77,"2-4-29-77","Midwest","West North Central"
-"316",2023-11-30,"Santa Cruz","CA","Passenger",1,0,1,18,19,5.26,"Santa Cruz County",6087,"California","Santa Cruz County CA",50,4,9,6,87,"4-9-6-87","West","Pacific"
-"317",2023-11-30,"Oldham","KY","Passenger",0,1,1,2,3,33.33,"Oldham County",21185,"Kentucky","Oldham County KY",50,3,6,21,185,"3-6-21-185","South","East South Central"
-"318",2023-11-30,"Mason","WA","Passenger",526,213,739,44648,45387,1.63,"Mason County",53045,"Washington","Mason County WA",50,4,9,53,45,"4-9-53-45","West","Pacific"
-"319",2023-11-30,"DuPage","IL","Passenger",0,1,1,29,30,3.33,"DuPage County",17043,"Illinois","DuPage County IL",50,2,3,17,43,"2-3-17-43","Midwest","East North Central"
-"320",2019-08-31,"Manatee","FL","Passenger",1,0,1,36,37,2.7,"Manatee County",12081,"Florida","Manatee County FL",50,3,5,12,81,"3-5-12-81","South","South Atlantic"
-"321",2022-11-30,"Pennington","SD","Passenger",2,0,2,26,28,7.14,"Pennington County",46103,"South Dakota","Pennington County SD",50,2,4,46,103,"2-4-46-103","Midwest","West North Central"
-"322",2022-06-30,"Suffolk","MA","Passenger",0,1,1,22,23,4.35,"Suffolk County",25025,"Massachusetts","Suffolk County MA",50,1,1,25,25,"1-1-25-25","Northeast","New England"
-"323",2017-04-30,"Guilford","NC","Passenger",1,0,1,31,32,3.12,"Guilford County",37081,"North Carolina","Guilford County NC",50,3,5,37,81,"3-5-37-81","South","South Atlantic"
-"324",2023-05-31,"Denton","TX","Passenger",1,0,1,48,49,2.04,"Denton County",48121,"Texas","Denton County TX",50,3,7,48,121,"3-7-48-121","South","West South Central"
-"325",2023-11-30,"Jefferson","NY","Passenger",2,1,3,155,158,1.9,"Jefferson County",36045,"New York","Jefferson County NY",50,1,2,36,45,"1-2-36-45","Northeast","Middle Atlantic"
-"326",2023-11-30,"Riverside","CA","Passenger",4,0,4,302,306,1.31,"Riverside County",6065,"California","Riverside County CA",50,4,9,6,65,"4-9-6-65","West","Pacific"
-"327",2021-10-31,"Missoula","MT","Passenger",1,0,1,54,55,1.82,"Missoula County",30063,"Montana","Missoula County MT",50,4,8,30,63,"4-8-30-63","West","Mountain"
-"328",2023-10-31,"Bell","TX","Passenger",1,0,1,221,222,0.45,"Bell County",48027,"Texas","Bell County TX",50,3,7,48,27,"3-7-48-27","South","West South Central"
-"329",2023-11-30,"Essex","MA","Passenger",1,0,1,12,13,7.69,"Essex County",25009,"Massachusetts","Essex County MA",50,1,1,25,9,"1-1-25-9","Northeast","New England"
-"330",2018-10-31,"Prince George","VA","Passenger",0,1,1,79,80,1.25,"Prince George County",51149,"Virginia","Prince George County VA",50,3,5,51,149,"3-5-51-149","South","South Atlantic"
-"331",2022-06-30,"Montgomery","TX","Passenger",1,0,1,38,39,2.56,"Montgomery County",48339,"Texas","Montgomery County TX",50,3,7,48,339,"3-7-48-339","South","West South Central"
-"332",2023-11-30,"Ulster","NY","Passenger",1,0,1,5,6,16.67,"Ulster County",36111,"New York","Ulster County NY",50,1,2,36,111,"1-2-36-111","Northeast","Middle Atlantic"
-"333",2023-11-30,"Walla Walla","WA","Passenger",251,123,374,34277,34651,1.08,"Walla Walla County",53071,"Washington","Walla Walla County WA",50,4,9,53,71,"4-9-53-71","West","Pacific"
+"","Date","fips","vehicle_primary_use","battery_electric_vehicles","plug_in_hybrid_electric_vehicles","ev_total","non_ev_total","total_vehicles","percent_ev"
+"1",2023-08-31,37151,"Passenger",1,0,1,3,4,25
+"2",2023-11-30,53007,"Passenger",709,205,914,52540,53454,1.71
+"3",2023-11-30,48085,"Passenger",2,0,2,25,27,7.41
+"4",2020-08-31,48187,"Passenger",1,0,1,63,64,1.56
+"5",2023-10-31,6083,"Passenger",1,0,1,59,60,1.67
+"6",2022-11-30,12031,"Passenger",0,1,1,266,267,0.37
+"7",2021-06-30,34027,"Passenger",1,0,1,15,16,6.25
+"8",2022-02-28,18167,"Passenger",1,0,1,5,6,16.67
+"9",2022-12-31,16073,"Passenger",1,0,1,3,4,25
+"10",2023-11-30,53039,"Passenger",173,71,244,14712,14956,1.63
+"11",2023-06-30,20061,"Passenger",1,0,1,67,68,1.47
+"12",2023-11-30,8005,"Passenger",1,1,2,60,62,3.23
+"13",2023-11-30,24033,"Passenger",3,1,4,95,99,4.04
+"14",2023-11-30,1117,"Passenger",1,0,1,5,6,16.67
+"15",2023-11-30,45019,"Passenger",1,2,3,44,47,6.38
+"16",2022-07-31,18067,"Passenger",0,1,1,4,5,20
+"17",2022-09-30,6081,"Passenger",1,0,1,79,80,1.25
+"18",2022-06-30,29019,"Passenger",0,1,1,8,9,11.11
+"19",2023-08-31,48113,"Passenger",1,0,1,69,70,1.43
+"20",2023-11-30,39057,"Passenger",1,0,1,24,25,4
+"21",2019-05-31,13187,"Passenger",1,0,1,4,5,20
+"22",2020-12-31,16001,"Passenger",0,1,1,257,258,0.39
+"23",2023-11-30,53031,"Passenger",638,272,910,23605,24515,3.71
+"24",2022-11-30,41005,"Passenger",1,0,1,123,124,0.81
+"25",2022-02-28,36029,"Passenger",1,0,1,31,32,3.12
+"26",2022-11-30,5133,"Passenger",0,1,1,0,1,100
+"27",2023-11-30,48491,"Passenger",0,1,1,36,37,2.7
+"28",2023-11-30,48355,"Passenger",1,1,2,40,42,4.76
+"29",2023-11-30,53047,"Passenger",150,74,224,25110,25334,0.88
+"30",2021-05-31,47011,"Passenger",1,0,1,0,1,100
+"31",2023-11-30,9011,"Passenger",1,4,5,145,150,3.33
+"32",2018-09-30,16057,"Passenger",0,1,1,75,76,1.32
+"33",2022-12-31,36081,"Passenger",1,0,1,34,35,2.86
+"34",2020-04-30,40109,"Passenger",0,1,1,130,131,0.76
+"35",2022-05-31,24005,"Passenger",1,0,1,73,74,1.35
+"36",2021-11-30,12105,"Passenger",1,0,1,61,62,1.61
+"37",2023-11-30,5119,"Passenger",2,0,2,16,18,11.11
+"38",2022-07-31,51153,"Passenger",0,1,1,194,195,0.51
+"39",2021-01-31,30013,"Passenger",0,1,1,58,59,1.69
+"40",2023-11-30,41053,"Passenger",1,1,2,9,11,18.18
+"41",2023-11-30,20103,"Passenger",0,1,1,83,84,1.19
+"42",2023-11-30,17019,"Passenger",1,0,1,11,12,8.33
+"43",2020-04-30,6033,"Passenger",0,1,1,9,10,10
+"44",2023-11-30,19125,"Passenger",1,0,1,0,1,100
+"45",2023-11-30,17163,"Passenger",1,0,1,82,83,1.2
+"46",2021-08-31,42017,"Passenger",1,0,1,17,18,5.56
+"47",2022-12-31,23019,"Passenger",0,1,1,9,10,10
+"48",2019-08-31,1045,"Passenger",0,1,1,55,56,1.79
+"49",2023-11-30,6017,"Passenger",1,0,1,15,16,6.25
+"50",2023-11-30,6001,"Passenger",4,0,4,136,140,2.86
+"51",2023-11-30,51075,"Passenger",1,2,3,20,23,13.04
+"52",2021-11-30,55079,"Passenger",1,0,1,39,40,2.5
+"53",2023-11-30,48493,"Passenger",0,1,1,3,4,25
+"54",2023-11-30,51199,"Passenger",1,0,1,63,64,1.56
+"55",2018-01-31,39049,"Passenger",0,1,1,110,111,0.9
+"56",2023-11-30,6031,"Passenger",2,2,4,251,255,1.57
+"57",2022-06-30,6079,"Passenger",1,0,1,57,58,1.72
+"58",2023-10-31,41041,"Passenger",0,1,1,11,12,8.33
+"59",2023-03-31,45085,"Passenger",0,1,1,34,35,2.86
+"60",2023-04-30,12091,"Passenger",0,1,1,93,94,1.06
+"61",2023-11-30,40047,"Passenger",1,0,1,12,13,7.69
+"62",2023-11-30,13089,"Passenger",1,0,1,35,36,2.78
+"63",2017-05-31,36055,"Passenger",1,0,1,27,28,3.57
+"64",2023-11-30,21163,"Passenger",1,0,1,11,12,8.33
+"65",2023-11-30,6097,"Passenger",0,1,1,51,52,1.92
+"66",2023-11-30,16039,"Passenger",1,0,1,8,9,11.11
+"67",2023-11-30,53049,"Passenger",87,99,186,15122,15308,1.22
+"68",2022-10-31,39173,"Passenger",0,1,1,4,5,20
+"69",2022-06-30,6019,"Passenger",1,0,1,147,148,0.68
+"70",2023-11-30,12086,"Passenger",1,0,1,45,46,2.17
+"71",2023-11-30,33015,"Passenger",1,0,1,10,11,9.09
+"72",2023-11-30,24009,"Passenger",1,1,2,62,64,3.12
+"73",2023-11-30,36085,"Passenger",1,0,1,4,5,20
+"74",2023-11-30,53035,"Passenger",3759,1435,5194,170589,175783,2.95
+"75",2023-11-30,24043,"Passenger",1,0,1,13,14,7.14
+"76",2023-08-31,4025,"Passenger",0,1,1,17,18,5.56
+"77",2023-11-30,45015,"Passenger",1,1,2,84,86,2.33
+"78",2023-11-30,51003,"Passenger",1,0,1,13,14,7.14
+"79",2021-07-31,13169,"Passenger",1,0,1,1,2,50
+"80",2023-11-30,31055,"Passenger",1,1,2,24,26,7.69
+"81",2023-11-30,51095,"Passenger",1,0,1,36,37,2.7
+"82",2023-07-31,51013,"Passenger",1,0,1,108,109,0.92
+"83",2023-11-30,53003,"Passenger",40,24,64,11989,12053,0.53
+"84",2023-11-30,48485,"Passenger",2,0,2,28,30,6.67
+"85",2020-02-29,26163,"Passenger",0,1,1,60,61,1.64
+"86",2020-09-30,8059,"Passenger",0,1,1,57,58,1.72
+"87",2018-06-30,42095,"Passenger",0,1,1,66,67,1.49
+"88",2023-11-30,48167,"Passenger",0,1,1,14,15,6.67
+"89",2023-11-30,13015,"Passenger",0,1,1,2,3,33.33
+"90",2023-11-30,41003,"Passenger",1,0,1,25,26,3.85
+"91",2019-07-31,37119,"Passenger",1,0,1,90,91,1.1
+"92",2023-11-30,1097,"Passenger",1,0,1,22,23,4.35
+"93",2017-02-28,37063,"Passenger",0,1,1,38,39,2.56
+"94",2023-11-30,53055,"Passenger",668,188,856,13277,14133,6.06
+"95",2023-11-30,53051,"Passenger",32,20,52,8523,8575,0.61
+"96",2021-02-28,18033,"Passenger",1,0,1,0,1,100
+"97",2021-08-31,8031,"Passenger",1,0,1,117,118,0.85
+"98",2020-04-30,4003,"Passenger",0,1,1,99,100,1
+"99",2023-11-30,48099,"Passenger",1,0,1,61,62,1.61
+"100",2017-04-30,36049,"Passenger",0,1,1,10,11,9.09
+"101",2017-05-31,48215,"Passenger",0,1,1,101,102,0.98
+"102",2023-11-30,53009,"Passenger",641,309,950,47648,48598,1.95
+"103",2023-11-30,24021,"Passenger",1,1,2,49,51,3.92
+"104",2023-11-30,6041,"Passenger",0,1,1,25,26,3.85
+"105",2022-06-30,12103,"Passenger",0,1,1,80,81,1.23
+"106",2023-11-30,24031,"Passenger",5,3,8,165,173,4.62
+"107",2017-01-31,12083,"Passenger",1,0,1,26,27,3.7
+"108",2020-08-31,4021,"Passenger",1,0,1,183,184,0.54
+"109",2019-10-31,35049,"Passenger",0,1,1,42,43,2.33
+"110",2023-11-30,6095,"Passenger",5,0,5,123,128,3.91
+"111",2023-11-30,53027,"Passenger",350,221,571,46653,47224,1.21
+"112",2023-11-30,53013,"Passenger",12,0,12,2343,2355,0.51
+"113",2022-07-31,37183,"Passenger",1,0,1,89,90,1.11
+"114",2023-11-30,34021,"Passenger",0,1,1,6,7,14.29
+"115",2023-11-30,42101,"Passenger",1,0,1,28,29,3.45
+"116",2023-11-30,41039,"Passenger",0,2,2,50,52,3.85
+"117",2023-11-30,13135,"Passenger",1,0,1,32,33,3.03
+"118",2023-11-30,12115,"Passenger",1,0,1,12,13,7.69
+"119",2023-11-30,53037,"Passenger",435,113,548,28231,28779,1.9
+"120",2020-08-31,35061,"Passenger",1,0,1,8,9,11.11
+"121",2023-11-30,6061,"Passenger",1,0,1,50,51,1.96
+"122",2018-04-30,47125,"Passenger",1,0,1,276,277,0.36
+"123",2023-11-30,6073,"Passenger",17,10,27,1766,1793,1.51
+"124",2023-11-30,53043,"Passenger",20,24,44,7363,7407,0.59
+"125",2019-11-30,17167,"Passenger",1,0,1,5,6,16.67
+"126",2022-12-31,42035,"Passenger",1,0,1,1,2,50
+"127",2021-06-30,27037,"Passenger",0,1,1,30,31,3.23
+"128",2023-04-30,42091,"Passenger",1,0,1,16,17,5.88
+"129",2022-06-30,4019,"Passenger",1,0,1,239,240,0.42
+"130",2023-11-30,53023,"Passenger",0,3,3,1271,1274,0.24
+"131",2023-11-30,17097,"Passenger",6,0,6,111,117,5.13
+"132",2023-11-30,53041,"Passenger",379,289,668,57391,58059,1.15
+"133",2023-11-30,53075,"Passenger",187,100,287,21365,21652,1.33
+"134",2021-08-31,25015,"Passenger",1,0,1,7,8,12.5
+"135",2023-11-30,10001,"Passenger",1,0,1,37,38,2.63
+"136",2023-11-30,37125,"Passenger",0,1,1,95,96,1.04
+"137",2023-11-30,42041,"Passenger",1,1,2,26,28,7.14
+"138",2023-08-31,12099,"Passenger",1,0,1,40,41,2.44
+"139",2023-11-30,24037,"Passenger",1,0,1,161,162,0.62
+"140",2023-11-30,6037,"Passenger",5,4,9,495,504,1.79
+"141",2019-11-30,12127,"Passenger",0,1,1,44,45,2.22
+"142",2017-01-31,41027,"Passenger",1,0,1,43,44,2.27
+"143",2021-05-31,12089,"Passenger",1,0,1,31,32,3.12
+"144",2023-11-30,30111,"Passenger",0,1,1,9,10,10
+"145",2023-11-30,8041,"Passenger",4,2,6,410,416,1.44
+"146",2018-06-30,16027,"Passenger",0,1,1,93,94,1.06
+"147",2020-02-29,12113,"Passenger",1,0,1,88,89,1.12
+"148",2023-11-30,53067,"Passenger",3623,1346,4969,183616,188585,2.63
+"149",2023-11-30,6067,"Passenger",2,0,2,128,130,1.54
+"150",2023-11-30,45013,"Passenger",1,0,1,21,22,4.55
+"151",2023-11-30,12095,"Passenger",1,0,1,44,45,2.22
+"152",2021-04-30,49049,"Passenger",0,1,1,125,126,0.79
+"153",2023-11-30,53011,"Passenger",6829,2554,9383,303563,312946,3
+"154",2023-11-30,29165,"Passenger",2,0,2,20,22,9.09
+"155",2021-03-31,16083,"Passenger",0,1,1,23,24,4.17
+"156",2023-11-30,12057,"Passenger",1,2,3,75,78,3.85
+"157",2023-11-30,6053,"Passenger",1,2,3,99,102,2.94
+"158",2023-06-30,55035,"Passenger",1,0,1,1,2,50
+"159",2020-06-30,12097,"Passenger",1,0,1,39,40,2.5
+"160",2023-11-30,53059,"Passenger",129,52,181,7741,7922,2.28
+"161",2023-11-30,15007,"Passenger",0,1,1,14,15,6.67
+"162",2019-07-31,41047,"Passenger",1,0,1,122,123,0.81
+"163",2023-11-30,4013,"Passenger",6,2,8,517,525,1.52
+"164",2023-02-28,12071,"Passenger",1,0,1,31,32,3.12
+"165",2023-11-30,13121,"Passenger",1,0,1,38,39,2.56
+"166",2022-08-31,40131,"Passenger",1,0,1,2,3,33.33
+"167",2023-11-30,20173,"Passenger",1,0,1,44,45,2.22
+"168",2023-11-30,29177,"Passenger",0,1,1,0,1,100
+"169",2017-04-30,41019,"Passenger",0,1,1,74,75,1.33
+"170",2023-11-30,53025,"Passenger",346,151,497,64832,65329,0.76
+"171",2023-11-30,28047,"Passenger",1,0,1,25,26,3.85
+"172",2023-11-30,53017,"Passenger",239,78,317,27938,28255,1.12
+"173",2023-11-30,34005,"Passenger",2,2,4,78,82,4.88
+"174",2022-05-31,51145,"Passenger",1,0,1,1,2,50
+"175",2022-05-31,36047,"Passenger",1,0,1,61,62,1.61
+"176",2023-01-31,13029,"Passenger",0,1,1,33,34,2.94
+"177",2023-11-30,53065,"Passenger",134,74,208,28581,28789,0.72
+"178",2023-11-30,13247,"Passenger",1,0,1,5,6,16.67
+"179",2023-02-28,1101,"Passenger",0,1,1,34,35,2.86
+"180",2023-08-31,6055,"Passenger",0,1,1,10,11,9.09
+"181",2023-11-30,48029,"Passenger",1,3,4,318,322,1.24
+"182",2023-11-30,53005,"Passenger",1321,613,1934,130938,132872,1.46
+"183",2023-11-30,17119,"Passenger",1,0,1,13,14,7.14
+"184",2017-07-31,55025,"Passenger",1,0,1,87,88,1.14
+"185",2023-11-30,29189,"Passenger",1,0,1,43,44,2.27
+"186",2023-11-30,8071,"Passenger",1,0,1,0,1,100
+"187",2023-11-30,24013,"Passenger",0,1,1,17,18,5.56
+"188",2022-10-31,48157,"Passenger",1,0,1,22,23,4.35
+"189",2023-11-30,41051,"Passenger",1,1,2,324,326,0.61
+"190",2023-11-30,53061,"Passenger",15203,3394,18597,510033,528630,3.52
+"191",2023-08-31,34017,"Passenger",1,0,1,16,17,5.88
+"192",2023-11-30,21093,"Passenger",1,0,1,48,49,2.04
+"193",2023-11-30,15003,"Passenger",3,2,5,210,215,2.33
+"194",2023-11-30,6077,"Passenger",0,1,1,59,60,1.67
+"195",2022-05-31,36061,"Passenger",1,0,1,36,37,2.7
+"196",2021-03-31,26081,"Passenger",0,1,1,27,28,3.57
+"197",2023-11-30,6085,"Passenger",9,2,11,129,140,7.86
+"198",2023-11-30,8001,"Passenger",1,0,1,19,20,5
+"199",2023-11-30,8013,"Passenger",1,0,1,21,22,4.55
+"200",2023-11-30,53069,"Passenger",31,22,53,2968,3021,1.75
+"201",2022-04-30,37195,"Passenger",1,0,1,0,1,100
+"202",2019-08-31,26077,"Passenger",1,0,1,15,16,6.25
+"203",2023-11-30,51107,"Passenger",2,0,2,53,55,3.64
+"204",2023-11-30,18089,"Passenger",0,1,1,4,5,20
+"205",2023-11-30,6071,"Passenger",2,1,3,220,223,1.35
+"206",2017-01-31,55009,"Passenger",1,0,1,46,47,2.13
+"207",2023-11-30,25017,"Passenger",2,1,3,54,57,5.26
+"208",2023-11-30,24003,"Passenger",6,3,9,264,273,3.3
+"209",2023-11-30,48141,"Passenger",3,0,3,236,239,1.26
+"210",2017-09-30,13067,"Passenger",0,1,1,71,72,1.39
+"211",2023-11-30,17161,"Passenger",0,1,1,10,11,9.09
+"212",2023-11-30,12009,"Passenger",1,0,1,48,49,2.04
+"213",2023-11-30,6059,"Passenger",7,3,10,254,264,3.79
+"214",2023-11-30,8069,"Passenger",1,0,1,20,21,4.76
+"215",2023-09-30,12011,"Passenger",1,0,1,56,57,1.75
+"216",2023-08-31,45035,"Passenger",1,0,1,35,36,2.78
+"217",2023-11-30,15009,"Passenger",1,0,1,18,19,5.26
+"218",2023-11-30,37135,"Passenger",0,1,1,3,4,25
+"219",2022-02-28,41035,"Passenger",1,0,1,30,31,3.23
+"220",2021-11-30,35001,"Passenger",1,0,1,113,114,0.88
+"221",2022-04-30,39149,"Passenger",0,1,1,2,3,33.33
+"222",2021-05-31,40143,"Passenger",1,0,1,41,42,2.38
+"223",2023-11-30,15001,"Passenger",1,0,1,25,26,3.85
+"224",2017-08-31,29095,"Passenger",1,0,1,58,59,1.69
+"225",2021-11-30,26145,"Passenger",1,0,1,8,9,11.11
+"226",2021-10-31,19049,"Passenger",0,1,1,8,9,11.11
+"227",2023-11-30,31153,"Passenger",1,0,1,44,45,2.22
+"228",2021-04-30,27123,"Passenger",1,0,1,32,33,3.03
+"229",2023-11-30,34001,"Passenger",1,0,1,7,8,12.5
+"230",2023-11-30,9009,"Passenger",0,2,2,23,25,8
+"231",2023-11-30,12033,"Passenger",0,1,1,102,103,0.97
+"232",2022-10-31,45083,"Passenger",0,1,1,29,30,3.33
+"233",2023-11-30,26161,"Passenger",0,1,1,15,16,6.25
+"234",2023-11-30,51179,"Passenger",3,0,3,70,73,4.11
+"235",2023-11-30,18003,"Passenger",1,0,1,8,9,11.11
+"236",2023-11-30,13153,"Passenger",1,0,1,24,25,4
+"237",2023-11-30,32003,"Passenger",4,2,6,322,328,1.83
+"238",2023-02-28,42003,"Passenger",1,0,1,54,55,1.82
+"239",2023-11-30,1081,"Passenger",1,0,1,12,13,7.69
+"240",2022-08-31,18057,"Passenger",1,0,1,19,20,5
+"241",2017-05-31,13215,"Passenger",0,1,1,244,245,0.41
+"242",2023-11-30,24027,"Passenger",0,2,2,45,47,4.26
+"243",2023-11-30,53019,"Passenger",22,4,26,4128,4154,0.63
+"244",2023-11-30,56033,"Passenger",1,0,1,4,5,20
+"245",2023-07-31,40065,"Passenger",0,1,1,29,30,3.33
+"246",2017-11-30,6107,"Passenger",1,0,1,189,190,0.53
+"247",2023-08-31,41017,"Passenger",1,0,1,50,51,1.96
+"248",2023-11-30,24025,"Passenger",1,1,2,41,43,4.65
+"249",2021-04-30,47141,"Passenger",0,1,1,1,2,50
+"250",2017-02-28,16079,"Passenger",0,1,1,82,83,1.2
+"251",2023-07-31,8035,"Passenger",0,1,1,56,57,1.75
+"252",2023-11-30,6111,"Passenger",3,2,5,185,190,2.63
+"253",2018-05-31,47065,"Passenger",1,0,1,23,24,4.17
+"254",2017-01-31,39159,"Passenger",1,0,1,4,5,20
+"255",2023-11-30,36091,"Passenger",1,1,2,30,32,6.25
+"256",2021-03-31,32031,"Passenger",1,0,1,103,104,0.96
+"257",2023-11-30,37093,"Passenger",1,0,1,54,55,1.82
+"258",2023-11-30,53057,"Passenger",1286,466,1752,85845,87597,2
+"259",2022-02-28,41071,"Passenger",1,0,1,37,38,2.63
+"260",2023-11-30,39113,"Passenger",0,1,1,36,37,2.7
+"261",2023-11-30,6029,"Passenger",1,1,2,140,142,1.41
+"262",2023-11-30,34013,"Passenger",2,0,2,6,8,25
+"263",2023-11-30,53053,"Passenger",8989,3068,12057,509017,521074,2.31
+"264",2021-03-31,17133,"Passenger",1,0,1,2,3,33.33
+"265",2023-11-30,27053,"Passenger",1,0,1,26,27,3.7
+"266",2023-11-30,53063,"Passenger",2750,1328,4078,312860,316938,1.29
+"267",2023-11-30,53001,"Passenger",28,13,41,12544,12585,0.33
+"268",2023-11-30,17031,"Passenger",3,1,4,125,129,3.1
+"269",2023-11-30,13245,"Passenger",0,1,1,54,55,1.82
+"270",2023-11-30,6089,"Passenger",1,0,1,19,20,5
+"271",2022-09-30,48439,"Passenger",1,0,1,106,107,0.93
+"272",2023-11-30,49035,"Passenger",1,1,2,72,74,2.7
+"273",2019-11-30,25011,"Passenger",0,1,1,1,2,50
+"274",2019-01-31,16065,"Passenger",1,0,1,37,38,2.63
+"275",2023-09-30,51087,"Passenger",0,1,1,5,6,16.67
+"276",2023-11-30,34007,"Passenger",0,1,1,11,12,8.33
+"277",2023-11-30,53073,"Passenger",2828,995,3823,142821,146644,2.61
+"278",2020-01-31,25003,"Passenger",0,1,1,5,6,16.67
+"279",2023-11-30,12021,"Passenger",1,0,1,10,11,9.09
+"280",2023-06-30,8037,"Passenger",1,0,1,8,9,11.11
+"281",2019-05-31,12111,"Passenger",1,0,1,29,30,3.33
+"282",2023-11-30,24017,"Passenger",1,1,2,47,49,4.08
+"283",2022-12-31,33003,"Passenger",0,1,1,5,6,16.67
+"284",2023-11-30,53029,"Passenger",1246,467,1713,59422,61135,2.8
+"285",2019-08-31,34003,"Passenger",1,0,1,27,28,3.57
+"286",2021-06-30,12119,"Passenger",0,1,1,8,9,11.11
+"287",2023-11-30,39061,"Passenger",1,0,1,23,24,4.17
+"288",2023-11-30,53077,"Passenger",605,288,893,160400,161293,0.55
+"289",2019-08-31,25019,"Passenger",1,0,1,2,3,33.33
+"290",2023-11-30,53033,"Passenger",66524,16031,82555,1281953,1364508,6.05
+"291",2022-11-30,38105,"Passenger",0,1,1,5,6,16.67
+"292",2023-11-30,37147,"Passenger",0,1,1,3,4,25
+"293",2023-11-30,6013,"Passenger",0,2,2,156,158,1.27
+"294",2023-11-30,37051,"Passenger",1,3,4,275,279,1.43
+"295",2023-11-30,53015,"Passenger",558,241,799,67349,68148,1.17
+"296",2023-11-30,48453,"Passenger",2,0,2,65,67,2.99
+"297",2023-03-31,51109,"Passenger",0,1,1,1,2,50
+"298",2023-07-31,41067,"Passenger",1,0,1,223,224,0.45
+"299",2023-11-30,48201,"Passenger",1,0,1,91,92,1.09
+"300",2023-11-30,48367,"Passenger",0,1,1,11,12,8.33
+"301",2020-08-31,12019,"Passenger",0,1,1,81,82,1.22
+"302",2020-09-30,47157,"Passenger",0,1,1,83,84,1.19
+"303",2023-11-30,37053,"Passenger",1,0,1,15,16,6.25
+"304",2023-05-31,36059,"Passenger",2,0,2,24,26,7.69
+"305",2022-03-31,30029,"Passenger",1,0,1,42,43,2.33
+"306",2023-11-30,37085,"Passenger",4,0,4,118,122,3.28
+"307",2019-12-31,25021,"Passenger",1,0,1,36,37,2.7
+"308",2023-02-28,12069,"Passenger",1,0,1,14,15,6.67
+"309",2023-11-30,53021,"Passenger",366,155,521,59908,60429,0.86
+"310",2023-11-30,37133,"Passenger",0,1,1,123,124,0.81
+"311",2023-11-30,45079,"Passenger",0,1,1,87,88,1.14
+"312",2023-11-30,51059,"Passenger",5,4,9,493,502,1.79
+"313",2022-02-28,6075,"Passenger",0,1,1,91,92,1.09
+"314",2019-02-28,18097,"Passenger",1,0,1,115,116,0.86
+"315",2022-07-31,29077,"Passenger",0,1,1,25,26,3.85
+"316",2023-11-30,6087,"Passenger",1,0,1,18,19,5.26
+"317",2023-11-30,21185,"Passenger",0,1,1,2,3,33.33
+"318",2023-11-30,53045,"Passenger",526,213,739,44648,45387,1.63
+"319",2023-11-30,17043,"Passenger",0,1,1,29,30,3.33
+"320",2019-08-31,12081,"Passenger",1,0,1,36,37,2.7
+"321",2022-11-30,46103,"Passenger",2,0,2,26,28,7.14
+"322",2022-06-30,25025,"Passenger",0,1,1,22,23,4.35
+"323",2017-04-30,37081,"Passenger",1,0,1,31,32,3.12
+"324",2023-05-31,48121,"Passenger",1,0,1,48,49,2.04
+"325",2023-11-30,36045,"Passenger",2,1,3,155,158,1.9
+"326",2023-11-30,6065,"Passenger",4,0,4,302,306,1.31
+"327",2021-10-31,30063,"Passenger",1,0,1,54,55,1.82
+"328",2023-10-31,48027,"Passenger",1,0,1,221,222,0.45
+"329",2023-11-30,25009,"Passenger",1,0,1,12,13,7.69
+"330",2018-10-31,51149,"Passenger",0,1,1,79,80,1.25
+"331",2022-06-30,48339,"Passenger",1,0,1,38,39,2.56
+"332",2023-11-30,36111,"Passenger",1,0,1,5,6,16.67
+"333",2023-11-30,53071,"Passenger",251,123,374,34277,34651,1.08

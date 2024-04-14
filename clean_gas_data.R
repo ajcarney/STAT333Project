@@ -1,6 +1,6 @@
 # determine date range to average over
 START_DATE <- "2023-01-08"  # must be in yyyy-mm-dd format
-NAVG       <- 365
+NAVG       <- 365           # number of days to include in average
 
 
 dates <- seq(as.Date(START_DATE), by = "day", length.out = NAVG)
@@ -135,4 +135,11 @@ for(i in 1:nrow(counties)) {
 cat("found", nFound, "gas prices\n")
 cat("imputed", nImpute, "gas prices\n")
 
-write.csv(counties, "data/gas_prices.csv", row.names = F, na="", quote=F)
+counties <- counties %>%
+  mutate(gas_regular=regular) %>% 
+  mutate(gas_mid=mid) %>%
+  mutate(gas_premium=premium) %>%
+  mutate(gas_diesel=diesel) %>%
+  select(fips, gas_regular, gas_mid, gas_premium, gas_diesel)
+
+# write.csv(counties, "data/gas_prices.csv", row.names = F, na="", quote=F)
