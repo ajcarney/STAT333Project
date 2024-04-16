@@ -1,6 +1,6 @@
 library(dplyr)
-library(usmap)
-library(ggplot2)
+#library(usmap)
+#library(ggplot2)
 
 counties           <- read.csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv", stringsAsFactors = FALSE)
 electric_vehichles <- read.csv("clean_data/Electric_Vehicle_Population_Size_By_County.csv")
@@ -9,9 +9,10 @@ pop                <- read.csv("clean_data/PopulationEstimates.csv")
 unempl_and_income  <- read.csv("clean_data/Unemployment_cleaned.csv")
 rpp                <- read.csv("clean_data/cost_of_living_rpp.csv")
 living_wage        <- read.csv("clean_data/fbc_livingwage_data_2024.csv")
-weather            <- read.csv("clean_data/weather.csv")
+weather            <- read.csv("clean_data/weather_data.csv")
 voting             <- read.csv("clean_data/voting_data_2016.csv")
-
+charging           <- read.csv("clean_data/charging_stations_clean.csv")
+education          <- read.csv("clean_data/Education_2017-2021.csv")
 
 
 # merge all the data by county
@@ -24,16 +25,20 @@ data <- counties %>%
   left_join(unempl_and_income, by=c("fips" = "fips_code")) %>%
   left_join(rpp, by=c("fips" = "FIPS.Code")) %>%
   left_join(living_wage, by=c("fips" = "county_fips")) %>%
-  left_join(weather, by=c("fips" = "fips")) #%>%
-  left_join(voting, by=c("fips" = "county_fips"))
+  left_join(weather, by=c("fips" = "fips")) %>%
+  left_join(voting, by=c("fips" = "county_fips")) %>%
+  left_join(charging, by=c("fips" = "fips")) %>% 
+  mutate(n_charging_locations = ifelse(is.na(n_charging_locations), 0, n_charging_locations)) %>%
+  left_join(education, by=c("fips" = "FIPS"))
+  
 
 
 # filter by rows with no NAs
 data2 <- data[complete.cases(data),]
 
 # plot on a map to visually see where data is
-plot_usmap(data = data2, values = "gas_regular", color = "grey", size = .25) +
-  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
+#plot_usmap(data = data2, values = "gas_regular", color = "grey", size = .25) +
+#  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
 
 
 # write.csv(data2, "clean_data/data.csv")
