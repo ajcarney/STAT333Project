@@ -17,12 +17,14 @@ for(i in 2:length(dates)) {
   tryCatch (
     {
       g <- read.csv(url)
-      city_gas$regular <- city_gas$regular + g$regular
-      city_gas$mid     <- city_gas$mid     + g$mid
-      city_gas$premium <- city_gas$premium + g$premium
-      city_gas$diesel  <- city_gas$diesel  + g$diesel
-      
-      navg <- navg + 1
+      if (length(city_gas$regular) == length(g$regular)) {
+        city_gas$regular <- city_gas$regular + g$regular
+        city_gas$mid     <- city_gas$mid     + g$mid
+        city_gas$premium <- city_gas$premium + g$premium
+        city_gas$diesel  <- city_gas$diesel  + g$diesel
+        
+        navg <- navg + 1
+      }
     },
     error = function(cond) {
       cat("Caught error:\n")
@@ -36,6 +38,8 @@ city_gas$mid     <- city_gas$mid / navg
 city_gas$premium <- city_gas$premium / navg
 city_gas$diesel  <- city_gas$diesel / navg
 
+cat("found", navg, "city\n")
+
 
 # Retrieve State gas data for imputation
 state_gas <- read.csv(paste("https://raw.githubusercontent.com/gueyenono/ScrapeUSGasPrices/master/data/state/", START_DATE , "-usa_gas_price-state.csv", sep=""))
@@ -47,12 +51,14 @@ for(i in 2:length(dates)) {
   tryCatch (
     {
       g <- read.csv(url)
-      state_gas$regular <- state_gas$regular + g$regular
-      state_gas$mid     <- state_gas$mid     + g$mid
-      state_gas$premium <- state_gas$premium + g$premium
-      state_gas$diesel  <- state_gas$diesel  + g$diesel
-      
-      navg <- navg + 1
+      if (length(state_gas$regular) == length(g$regular)) {
+        state_gas$regular <- state_gas$regular + g$regular
+        state_gas$mid     <- state_gas$mid     + g$mid
+        state_gas$premium <- state_gas$premium + g$premium
+        state_gas$diesel  <- state_gas$diesel  + g$diesel
+        
+        navg <- navg + 1
+      }
     },
     error = function(cond) {
       cat("Caught error:\n")
@@ -68,14 +74,25 @@ state_gas$diesel  <- state_gas$diesel / navg
 
 
 counties <- read.csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv", stringsAsFactors = FALSE)
-msa <- read.csv("data/msa.csv", stringsAsFactors = FALSE)
+msa <- read.csv("clean_data/msa.csv", stringsAsFactors = FALSE)
+
+cat("found", navg, "state\n")
+
 
 # function to add " County" to string if not already present
 appendCounty <- function(s) {
   s <- unlist(strsplit(s, ", "))
-  if (!endsWith(s[1], " County")) {
-    s[1] <- paste(s[1], "County")
+
+  if (s[2] == "LA") {
+    if (!endsWith(s[1], " Parish")) {
+      s[1] <- paste(s[1], "Parish")
+    }
+  } else {
+    if (!endsWith(s[1], " County")) {
+      s[1] <- paste(s[1], "County")
+    }
   }
+  
   
   return (paste(s[1], ", ", s[2], sep=""))
 }
@@ -132,6 +149,7 @@ for(i in 1:nrow(counties)) {
   }
 }
 
+cat("\n------------\n")
 cat("found", nFound, "gas prices\n")
 cat("imputed", nImpute, "gas prices\n")
 
@@ -142,4 +160,4 @@ counties <- counties %>%
   mutate(gas_diesel=diesel) %>%
   select(fips, gas_regular, gas_mid, gas_premium, gas_diesel)
 
-# write.csv(counties, "data/gas_prices.csv", row.names = F, na="", quote=F)
+write.csv(counties, "clean_data/gas_prices.csv", row.names = F, na="", quote=F)
