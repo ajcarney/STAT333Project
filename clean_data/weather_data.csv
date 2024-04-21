@@ -1,4 +1,4 @@
-"","ID","Name","State","avg_temp","Max_temperature","Min_temp","Precipitation","fips"
+"","ID","Name","State","avg_temp","max_temp","min_temp","precipitation","fips"
 "1","AL-001","Autauga County","Alabama","65.7","77","54.3","304.61",1001
 "2","AL-003","Baldwin County","Alabama","68.3","78.3","58.3","340.48",1003
 "3","AL-005","Barbour County","Alabama","66","77","54.9","283.6",1005
@@ -1181,7 +1181,6 @@
 "1180","MD-045","Wicomico County","Maryland","58.7","68.9","48.6","237.65",23001
 "1181","MD-047","Worcester County","Maryland","58.9","67.9","49.8","238.32",23003
 "1182","MD-510","Baltimore City","Maryland","57.9","67.4","48.4","259.98",23005
-"1183","MD-511","Washington"," D.C.","Washington","Washington","Washington","Washington",23007
 "1184","MA-001","Barnstable County","Massachusetts","51.9","59.3","44.4","254.52",23009
 "1185","MA-003","Berkshire County","Massachusetts","46.5","56.4","36.6","248.69",23011
 "1186","MA-005","Bristol County","Massachusetts","51.8","60.9","42.7","261.98",23013
