@@ -52,7 +52,7 @@ data <- counties %>%
 
 
 # filter by rows with no NAs
-data2 <- data[complete.cases(data),]
+#data2 <- data[complete.cases(data),]
 
 # plot on a map to visually see where data is
 #plot_usmap(data = data2, values = "gas_regular", color = "grey", size = .25) +
