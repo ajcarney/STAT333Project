@@ -1,6 +1,6 @@
 library(dplyr)
-#library(usmap)
-#library(ggplot2)
+library(usmap)
+library(ggplot2)
 
 counties           <- read.csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv", stringsAsFactors = FALSE)
 electric_vehichles <- read.csv("clean_data/Electric_Vehicle_Population_Size_By_County.csv")
@@ -55,8 +55,10 @@ data <- counties %>%
 #data2 <- data[complete.cases(data),]
 
 # plot on a map to visually see where data is
-#plot_usmap(data = data2, values = "gas_regular", color = "grey", size = .25) +
-#  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
+plot_usmap(data = data, values = "ev_market_penetration", color = "grey", size = .25, linewidth=0.1) +
+  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
+  theme(legend.position = "right")
+
 
 
 write.csv(data2, "clean_data/data.csv")

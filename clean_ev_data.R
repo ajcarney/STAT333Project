@@ -38,7 +38,7 @@ appendCounty <- function(s) {
     if (!endsWith(s[1], " Parish")) {
       s[1] <- paste(s[1], "Parish")
     }
-  } else {
+  } else if (s[2] != "AK") {
     if (!endsWith(s[1], " County")) {
       s[1] <- paste(s[1], "County")
     }
@@ -56,7 +56,8 @@ ev2_clean <- ev2 %>% mutate(county=as.character(county)) %>%
   select(fips, ev_market_penetration)
 
 plot_usmap(data = ev2_clean, values = "ev_market_penetration", color = "grey", size = .25) +
-  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")
+  scale_fill_gradient(low = "blue", high = "red", na.value = "transparent")+
+  theme(legend.position = "right")
 
 write.csv(ev2_clean, "clean_data/ev_market_penetration.csv", row.names=FALSE)
 
