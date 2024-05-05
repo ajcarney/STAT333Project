@@ -140,13 +140,13 @@ for(i in 1:nrow(counties)) {
   row <- counties[i,]
   g <- state_gas[state_gas$state == row$state_abbr,]
   
-  if (anyNA(row) && nrow(g) == 1) {
+  #if (anyNA(row) && nrow(g) == 1) {
     counties[i, "regular"] <- g$regular[1]
     counties[i, "mid"] <- g$mid[1]
     counties[i, "premium"] <- g$premium[1]
     counties[i, "diesel"] <- g$diesel[1]
     nImpute <- nImpute + 1
-  }
+  #}
 }
 
 cat("\n------------\n")
@@ -160,4 +160,4 @@ counties <- counties %>%
   mutate(gas_diesel=diesel) %>%
   select(fips, gas_regular, gas_mid, gas_premium, gas_diesel)
 
-write.csv(counties, "clean_data/gas_prices.csv", row.names = F, na="", quote=F)
+write.csv(counties, "/home/aiden/Documents/School/STAT333/STAT333Project/clean_data/gas_prices.csv", row.names = F, na="", quote=F)
