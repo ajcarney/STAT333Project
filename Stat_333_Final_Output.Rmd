@@ -1,0 +1,109 @@
+---
+title: "Stat 333 Project Results"
+author: "Jonathan Morris"
+date: "2024-05-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load packages:
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(interactions)
+library(usmap)
+```
+
+# Load the data:
+```{r}
+data <- read.csv("https://raw.githubusercontent.com/ajcarney/STAT333Project/master/clean_data/data.csv")
+data <- data %>% select(-Perc_Dem, -Perc_Rep) %>% drop_na()
+```
+
+
+# Run original model:
+```{r}
+fit1 <- lm(ev_market_penetration ~ Income_adjusted*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
+summary(fit1)
+```
+
+# Plot original model (with jitter):
+```{r}
+ggplot(data, aes(x=Income_adjusted, y = ev_market_penetration)) +
+  geom_point(aes(color = gas_regular), position = position_jitter(width = 0.05, height = 0.05)) +
+  geom_smooth(method = "lm") +
+  ggtitle("Median Household Income Associated With EV Market Penetration") +
+  labs(x = "Median Household Income / RPP ($)", y = "Electric Vehicle Market Penetration") + 
+  scale_color_continuous(name = "Average Gas Price ($/g)") + 
+  scale_color_gradient(name = "Average Gas Price ($/g)",
+                       low = "pink",  # lighter color
+                       high = "darkred")
+```
+
+# Show diagnostic plots:
+```{r}
+plot(fit1)
+```
+
+# Model with gas price non-imputated (Aiden can fill in):
+
+# Run model with log income:
+```{r}
+fit2 <- lm(ev_market_penetration ~ log_income*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
+summary(fit2)
+```
+#Diagnostic plots for log_income:
+```{r}
+plot(fit2)
+```
+
+
+#Plot log_income
+```{r}
+ggplot(data, aes(x=log_income, y = ev_market_penetration)) +
+  geom_point(aes(color = gas_regular),position = position_jitter(width = 0.05, height = 0.05)) +
+  geom_smooth(method = "lm") +
+  ggtitle("Median Household Income Associated With EV Market Penetration") +
+  labs(x = "Logged Median Household Income ($)", y = "Electric Vehicle Market Penetration") + 
+  scale_color_continuous(name = "Average Gas Price ($/g)") + 
+  scale_color_gradient(name = "Average Gas Price ($/g)",
+                       low = "pink",  # lighter color
+                       high = "darkred")
+```
+
+# Run the model with log income adjusted:
+```{r}
+data <- data %>% drop_na();
+fit3 <- lm(ev_market_penetration ~ log_income_adjusted*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
+summary(fit3)
+```
+```{r}
+
+
+data2 <- data %>% mutate(
+        resids = resid(fit3)
+    )
+
+plot_usmap(data = data2, values="resids", color = "grey", size = .25, linewidth=0.1) +
+  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
+  theme(legend.position = "right")
+#plot(fit3)
+```
+
+# Plot log_income / RPP
+### Shows a negative slope because the values were logged as a ratio. think of these results as the same but just flipped.
+```{r}
+ggplot(data, aes(x=log_income_adjusted, y = ev_market_penetration)) +
+  geom_point(aes(color = gas_regular), position = position_jitter(width = 0.01, height = 0.01)) +
+  geom_smooth(method = "lm") +
+  ggtitle("Median Household Income Associated With EV Market Penetration") +
+  labs(x = "Log (Median Household Income / RPP)", y = "Electric Vehicle Market Penetration") + 
+  scale_color_continuous(name = "Average Gas Price ($/g)") + 
+  scale_color_gradient(name = "Average Gas Price ($/g)",
+                       low = "pink",  # lighter color
+                       high = "darkred")
+```
