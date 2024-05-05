@@ -9,7 +9,7 @@ pop                <- read.csv("clean_data/PopulationEstimates.csv")
 unempl_and_income  <- read.csv("clean_data/Unemployment_cleaned.csv")
 rpp                <- read.csv("clean_data/cost_of_living_rpp.csv")
 living_wage        <- read.csv("clean_data/fbc_livingwage_data_2024.csv")
-weather            <- read.csv("clean_data/weather_data.csv")
+weather            <- read.csv("clean_data/weather.csv")
 voting             <- read.csv("clean_data/Voting_data_2022.csv")
 charging           <- read.csv("clean_data/charging_stations_clean.csv")
 education          <- read.csv("clean_data/Education_2017-2021.csv")
@@ -38,7 +38,7 @@ data <- counties %>%
   left_join(charging, by=c("fips" = "fips")) %>% 
   mutate(n_charging_locations = ifelse(is.na(n_charging_locations), 0, n_charging_locations)) %>%
   left_join(education, by=c("fips" = "FIPS")) %>% 
-  mutate(county_name = county_name.x.x, State=state_abbr) %>%
+  mutate(county_name = county_name.x.x, State=state_abbr.x) %>%
   select(fips, county_name, State,
     ev_market_penetration,                          # ev data
     n_charging_locations,                           # charging
@@ -65,7 +65,7 @@ data <- counties %>%
 #data2 <- data[complete.cases(data),]
 
 # plot on a map to visually see where data is
-plot_usmap(data = data, values = "gas_tax", color = "grey", size = .25, linewidth=0.1) +
+plot_usmap(data = data, values = "avg_temp", color = "grey", size = .25, linewidth=0.1) +
   scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
   theme(legend.position = "right")
 
