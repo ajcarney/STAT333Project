@@ -1,109 +1,121 @@
 ---
 title: "Stat 333 Project Results"
-author: "Jonathan Morris"
+author: "Aiden Carney, Ellie Brothers, Jonathan Morris, Maxim Yam, Youngwoo Kim"
 date: "2024-05-05"
 output: html_document
 ---
+
+# Introduction
+
+
+# Methodology
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r, echo=F, error=F, warning=F, message=F}
 # Load packages:
-```{r}
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(interactions)
 library(usmap)
+library(knitr)
+library(broom)
 ```
 
-# Load the data:
-```{r}
-data <- read.csv("https://raw.githubusercontent.com/ajcarney/STAT333Project/master/clean_data/data.csv")
+```{r, echo=F, message=F}
+# load the data
+#data <- read.csv("https://raw.githubusercontent.com/ajcarney/STAT333Project/master/clean_data/data.csv")
+data <- read.csv("clean_data/data.csv")
 data <- data %>% select(-Perc_Dem, -Perc_Rep) %>% drop_na()
 ```
 
-
-# Run original model:
-```{r}
-fit1 <- lm(ev_market_penetration ~ Income_adjusted*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
-summary(fit1)
-```
-
-# Plot original model (with jitter):
-```{r}
-ggplot(data, aes(x=Income_adjusted, y = ev_market_penetration)) +
-  geom_point(aes(color = gas_regular), position = position_jitter(width = 0.05, height = 0.05)) +
-  geom_smooth(method = "lm") +
-  ggtitle("Median Household Income Associated With EV Market Penetration") +
-  labs(x = "Median Household Income / RPP ($)", y = "Electric Vehicle Market Penetration") + 
-  scale_color_continuous(name = "Average Gas Price ($/g)") + 
-  scale_color_gradient(name = "Average Gas Price ($/g)",
-                       low = "pink",  # lighter color
-                       high = "darkred")
-```
-
-# Show diagnostic plots:
-```{r}
-plot(fit1)
-```
-
-# Model with gas price non-imputated (Aiden can fill in):
-
-# Run model with log income:
-```{r}
-fit2 <- lm(ev_market_penetration ~ log_income*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
-summary(fit2)
-```
-#Diagnostic plots for log_income:
-```{r}
-plot(fit2)
-```
-
-
-#Plot log_income
-```{r}
+```{r, echo=F, message=F, fig.cap="Figure 1: EV Market Penetration vs Log Median Income", fig.align = 'center'}
+# Plot log_income
 ggplot(data, aes(x=log_income, y = ev_market_penetration)) +
-  geom_point(aes(color = gas_regular),position = position_jitter(width = 0.05, height = 0.05)) +
+  geom_point(aes(color = gas_regular),position = position_jitter(width = 0.005, height = 0.005), alpha=0.5) +
   geom_smooth(method = "lm") +
   ggtitle("Median Household Income Associated With EV Market Penetration") +
-  labs(x = "Logged Median Household Income ($)", y = "Electric Vehicle Market Penetration") + 
-  scale_color_continuous(name = "Average Gas Price ($/g)") + 
-  scale_color_gradient(name = "Average Gas Price ($/g)",
+  labs(x = "Log (Median Household Income)", y = "Electric Vehicle Market Penetration") + 
+  scale_color_continuous(name = "Average Gas Price ($/gal)") + 
+  scale_color_gradient(name = "Average Gas Price ($/gal)",
                        low = "pink",  # lighter color
                        high = "darkred")
 ```
 
-# Run the model with log income adjusted:
-```{r}
-data <- data %>% drop_na();
-fit3 <- lm(ev_market_penetration ~ log_income_adjusted*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
-summary(fit3)
-```
-```{r}
-
-
-data2 <- data %>% mutate(
-        resids = resid(fit3)
-    )
-
-plot_usmap(data = data2, values="resids", color = "grey", size = .25, linewidth=0.1) +
-  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
-  theme(legend.position = "right")
-#plot(fit3)
-```
-
-# Plot log_income / RPP
-### Shows a negative slope because the values were logged as a ratio. think of these results as the same but just flipped.
-```{r}
+```{r, echo=F, message=F, fig.cap="Figure 2: EV Market Penetration vs Log Adjusted Income", fig.align = 'center'}
+# Plot log (income / RPP)
 ggplot(data, aes(x=log_income_adjusted, y = ev_market_penetration)) +
-  geom_point(aes(color = gas_regular), position = position_jitter(width = 0.01, height = 0.01)) +
+  geom_point(aes(color = gas_regular),position = position_jitter(width = 0.005, height = 0.005), alpha=0.5) +
   geom_smooth(method = "lm") +
   ggtitle("Median Household Income Associated With EV Market Penetration") +
   labs(x = "Log (Median Household Income / RPP)", y = "Electric Vehicle Market Penetration") + 
-  scale_color_continuous(name = "Average Gas Price ($/g)") + 
-  scale_color_gradient(name = "Average Gas Price ($/g)",
+  scale_color_continuous(name = "Average Gas Price ($/gal)") + 
+  scale_color_gradient(name = "Average Gas Price ($/gal)",
                        low = "pink",  # lighter color
                        high = "darkred")
 ```
+
+```{r, echo=F, message=F, warning=F, fig.cap="Figure 3: Log Adjusted Income by County", fig.align = 'center'}
+# Plot log income adjusted on a map
+plot_usmap(data = data, values="log_income_adjusted", color = "grey", size = .25, linewidth=0.1) +
+  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
+  theme(legend.position = "right")
+```
+
+```{r, echo=F, message=F, warning=F, fig.cap="Figure 4: EV Market Penetration by County", fig.align = 'center'}
+# Plot ev market penetration on a map
+plot_usmap(data = data, values="ev_market_penetration", color = "grey", size = .25, linewidth=0.1) +
+  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
+  theme(legend.position = "right")
+```
+
+
+
+
+
+```{r, echo=F, message=F}
+# Run the model with log income adjusted:
+fit <- lm(ev_market_penetration ~ log_income_adjusted*gas_regular + gas_tax + n_charging_locations + log_population + avg_temp + Perc_Adults_Bachelor_Or_Above, data = data)
+
+fit %>% tidy() %>% kable(caption="Figure 5: Linear Model Summary")
+```
+
+
+```{r, echo=F, message=F, fig.cap="Figure 6: Diagnostic Plots", fig.align = 'center'}
+# diagnostic plots
+par(mfrow = c(2,2))
+plot(fit, labels.id = data$county_name)
+```
+
+
+```{r, echo=F, message=F, warning=F, fig.cap="Figure 7: Residuals by County", fig.align = 'center'}
+# Plot residuals on a map
+data2 <- data %>% mutate(residuals = resid(fit))
+
+plot_usmap(data = data2, values="residuals", color = "grey", size = .25, linewidth=0.1) +
+  scale_fill_gradient(low = "pink", high = "darkred", na.value = "transparent") +
+  theme(legend.position = "right")
+```
+
+# Appendix
+
+#### Code:
+
+```{r get-labels, echo = FALSE}
+labs = knitr::all_labels()
+labs = setdiff(labs, c("setup", "get-labels"))
+```
+
+```{r all-code, ref.label=labs, eval=FALSE}
+```
+
+#### Linear Model Summary:
+
+```{r, echo=F}
+summary(fit)
+```
+
